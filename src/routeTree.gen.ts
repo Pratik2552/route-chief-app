@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as DriverHomeRouteImport } from './routes/driver.home'
 import { Route as DriverNavigationRouteImport } from './routes/driver.navigation'
+import { Route as DriverCollectBinIdRouteImport } from './routes/driver.collect.$binId'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,35 +29,50 @@ const DriverNavigationRoute = DriverNavigationRouteImport.update({
   path: '/driver/navigation',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DriverCollectBinIdRoute = DriverCollectBinIdRouteImport.update({
+  id: '/driver/collect/$binId',
+  path: '/driver/collect/$binId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
   '/driver/navigation': typeof DriverNavigationRoute
+  '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
   '/driver/navigation': typeof DriverNavigationRoute
+  '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
   '/driver/navigation': typeof DriverNavigationRoute
+  '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/driver/home' | '/driver/navigation'
+  fullPaths:
+    '/' | '/driver/home' | '/driver/navigation' | '/driver/collect/$binId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/driver/home' | '/driver/navigation'
-  id: '__root__' | '/' | '/driver/home' | '/driver/navigation'
+  to: '/' | '/driver/home' | '/driver/navigation' | '/driver/collect/$binId'
+  id:
+    | '__root__'
+    | '/'
+    | '/driver/home'
+    | '/driver/navigation'
+    | '/driver/collect/$binId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DriverHomeRoute: typeof DriverHomeRoute
   DriverNavigationRoute: typeof DriverNavigationRoute
+  DriverCollectBinIdRoute: typeof DriverCollectBinIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -82,6 +98,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DriverNavigationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/driver/collect/$binId': {
+      id: '/driver/collect/$binId'
+      path: '/driver/collect/$binId'
+      fullPath: '/driver/collect/$binId'
+      preLoaderRoute: typeof DriverCollectBinIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -89,6 +112,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DriverHomeRoute: DriverHomeRoute,
   DriverNavigationRoute: DriverNavigationRoute,
+  DriverCollectBinIdRoute: DriverCollectBinIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
