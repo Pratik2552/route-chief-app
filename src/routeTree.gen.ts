@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as DriverHomeRouteImport } from './routes/driver.home'
+import { Route as DriverNavigationRouteImport } from './routes/driver.navigation'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const DriverHomeRoute = DriverHomeRouteImport.update({
   path: '/driver/home',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DriverNavigationRoute = DriverNavigationRouteImport.update({
+  id: '/driver/navigation',
+  path: '/driver/navigation',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/navigation': typeof DriverNavigationRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/navigation': typeof DriverNavigationRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/navigation': typeof DriverNavigationRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/driver/home'
+  fullPaths: '/' | '/driver/home' | '/driver/navigation'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/driver/home'
-  id: '__root__' | '/' | '/driver/home'
+  to: '/' | '/driver/home' | '/driver/navigation'
+  id: '__root__' | '/' | '/driver/home' | '/driver/navigation'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DriverHomeRoute: typeof DriverHomeRoute
+  DriverNavigationRoute: typeof DriverNavigationRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DriverHomeRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/driver/navigation': {
+      id: '/driver/navigation'
+      path: '/driver/navigation'
+      fullPath: '/driver/navigation'
+      preLoaderRoute: typeof DriverNavigationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DriverHomeRoute: DriverHomeRoute,
+  DriverNavigationRoute: DriverNavigationRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
