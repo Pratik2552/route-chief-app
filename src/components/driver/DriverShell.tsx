@@ -33,19 +33,25 @@ export function DriverShell({
       <main className={flush ? "flex-1" : "flex-1 space-y-4 p-4 pb-6"}>{children}</main>
 
       <nav className="sticky bottom-0 z-[500] grid grid-cols-4 border-t-4 border-border bg-card">
-        {NAV.map(({ to, label, icon: Icon }) => (
-          <Link
-            key={to}
-            to={to}
-            params={to.includes("$binId") ? { binId: nextBinId ?? "BIN-101" } : undefined}
-            activeProps={{ className: "bg-secondary text-secondary-foreground" }}
-            className="flex flex-col items-center gap-1 py-3 text-foreground"
-          >
-            <Icon className="size-7" strokeWidth={2.4} />
-            <span className="text-xs font-bold uppercase tracking-wide">{label}</span>
-          </Link>
-        ))}
+        {NAV.map(({ to, label, icon: Icon }) => {
+          const common = {
+            activeProps: { className: "bg-secondary text-secondary-foreground" },
+            className: "flex flex-col items-center gap-1 py-3 text-foreground",
+            children: (
+              <>
+                <Icon className="size-7" strokeWidth={2.4} />
+                <span className="text-xs font-bold uppercase tracking-wide">{label}</span>
+              </>
+            ),
+          };
+          return to === "/driver/collect/$binId" ? (
+            <Link key={to} to={to} params={{ binId: nextBinId ?? "BIN-101" }} {...common} />
+          ) : (
+            <Link key={to} to={to} {...common} />
+          );
+        })}
       </nav>
+
     </div>
   );
 }
