@@ -1,23 +1,23 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { lazy, Suspense, useEffect, useState } from "react";
-import { CheckCircle2, Navigation, Check, X, Building2, Truck } from "lucide-react";
+import { CheckCircle2, Check, X, Building2, MapPin, Truck, AlertCircle, RefreshCw } from "lucide-react";
 import { toast } from "sonner";
 import { DriverShell } from "@/components/driver/DriverShell";
 
 const RouteMap = lazy(() => import("@/components/driver/RouteMap"));
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000/api";
 
-export const Route = createFileRoute("/driver/navigation")({
+export const Route = createFileRoute('/driver/territory')({
   head: () => ({
     meta: [
-      { title: "Territory Route Navigation | CivicSync Driver" },
+      { title: "My Territory Map | CivicSync Driver" },
       {
         name: "description",
-        content: "Follow your assigned territory marked route, update bin collection (Yes/No), and return to depot.",
+        content: "View your assigned exclusive collection territory, marked route path, and mark bins as collected.",
       },
     ],
   }),
-  component: DriverNavigation,
+  component: DriverTerritoryPage,
 });
 
 interface KMLBin {
@@ -39,18 +39,18 @@ interface KMLMapResponse {
   progress?: { total: number; collected: number; percentage: number };
 }
 
-function DriverNavigation() {
+function DriverTerritoryPage() {
   const [mounted, setMounted] = useState(false);
   const [kmlData, setKmlData] = useState<KMLMapResponse | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // Fetch driver identity from stored session
+  // Retrieve Driver Session Data
   const storedVehicleData = localStorage.getItem('civicsync_vehicle_data');
   const vehicleObj = storedVehicleData ? JSON.parse(storedVehicleData) : null;
   const driverName = vehicleObj?.driver_name || vehicleObj?.driverName || "Driver";
   const licensePlate = vehicleObj?.license_plate || "";
 
-  const fetchDriverKMLMap = async () => {
+  const fetchDriverTerritory = async () => {
     try {
       const token = localStorage.getItem('civicsync_vehicle_token');
       const queryParams = new URLSearchParams();
@@ -68,7 +68,7 @@ function DriverNavigation() {
         setKmlData(data);
       }
     } catch (err) {
-      console.error("Failed to fetch driver KML map:", err);
+      console.error("Failed to fetch driver territory:", err);
     } finally {
       setLoading(false);
     }
@@ -76,9 +76,9 @@ function DriverNavigation() {
 
   useEffect(() => {
     setMounted(true);
-    fetchDriverKMLMap();
+    fetchDriverTerritory();
 
-    const interval = setInterval(fetchDriverKMLMap, 3000);
+    const interval = setInterval(fetchDriverTerritory, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -122,12 +122,12 @@ function DriverNavigation() {
       const data = await res.json();
       if (res.ok && data.success) {
         toast.success(`Bin ${binName} set to ${newStatus ? 'COLLECTED (YES) ✅' : 'PENDING (NO) 🔴'}`);
-        fetchDriverKMLMap();
+        fetchDriverTerritory();
       } else {
-        toast.error(data.error || `Failed to verify collection for ${binName}`);
+        toast.error(data.error || `Verification failed for ${binName}`);
       }
     } catch (err: any) {
-      toast.error(err.message || `Failed to update status for ${binName}`);
+      toast.error(err.message || `Failed to update bin ${binName}`);
     }
   };
 
@@ -143,13 +143,34 @@ function DriverNavigation() {
   return (
     <DriverShell
       title={`Territory: ${kmlData?.driverZoneName || 'Zone A'}`}
-      subtitle={isAllDone ? "🎉 All Pickups Done — Return to Depot" : `Follow marked path (${kmlData?.route?.name || 'ROUTE-TRUCK'})`}
+      subtitle={`Driver: ${driverName} (${licensePlate || 'MH-15'})`}
       flush
     >
-      {/* Map View */}
-      <div className="h-[45vh] w-full border-b-4 border-border bg-muted relative">
+      {/* Driver Logged-in Header Badge */}
+      <div className="bg-slate-900 text-white p-4 border-b-4 border-blue-600 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <div className="h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center font-black text-xl text-white">
+            <Truck className="size-6 text-white" />
+          </div>
+          <div>
+            <h2 className="text-lg font-black uppercase text-amber-400">👤 {driverName}</h2>
+            <p className="text-xs text-slate-300 font-bold">Vehicle: {licensePlate || 'Assigned Vehicle'} • {kmlData?.driverZoneName || 'Zone A'}</p>
+          </div>
+        </div>
+        <span className="bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-xs font-extrabold uppercase px-3 py-1 rounded">
+          Active On Duty
+        </span>
+      </div>
+
+      {/* Map View displaying ONLY driver's territory */}
+      <div className="h-[48vh] w-full border-b-4 border-border bg-muted relative">
         {mounted ? (
-          <Suspense fallback={<div className="p-4 text-lg font-bold">Loading territory map…</div>}>
+          <Suspense fallback={
+            <div className="flex h-full w-full items-center justify-center bg-slate-100">
+              <RefreshCw className="h-8 w-8 animate-spin text-blue-600 mr-2" />
+              <span className="font-bold text-lg text-slate-700">Loading your assigned territory map…</span>
+            </div>
+          }>
             <RouteMap
               kmlData={kmlData}
               vehicle={truckPos}
@@ -157,6 +178,15 @@ function DriverNavigation() {
             />
           </Suspense>
         ) : null}
+
+        <div className="absolute top-3 right-3 z-[400] bg-white/95 backdrop-blur-md border-2 border-slate-300 p-2.5 rounded-lg shadow-md text-xs font-bold">
+          <span className="flex items-center gap-1.5 text-blue-900">
+            <MapPin className="size-4 text-blue-600" /> {kmlData?.driverZoneName || 'Zone A'}
+          </span>
+          <span className="flex items-center gap-1.5 mt-1 text-emerald-700">
+            <CheckCircle2 className="size-4 text-emerald-600" /> {kmlData?.progress?.collected || 0} / {bins.length} Collected
+          </span>
+        </div>
       </div>
 
       {/* Return to Depot Banner when all collected */}
@@ -166,83 +196,83 @@ function DriverNavigation() {
             <Building2 className="size-8" /> Return to Central Depot
           </div>
           <p className="text-sm font-semibold mt-1 opacity-90">
-            All garbage bins in your territory have been collected. Follow the marked route back to depot at coordinates ({depot.lat.toFixed(4)}, {depot.lng.toFixed(4)}).
+            All garbage bins in your territory ({kmlData?.driverZoneName}) have been collected. Please follow the marked route back to Central Depot.
           </p>
         </div>
       )}
 
-      {/* Stops Checklist & Yes/No Toggle */}
+      {/* Bin Checklist & YES / NO Collection Controls */}
       <div className="space-y-4 p-4">
         <div className="flex items-center justify-between border-b-4 border-border pb-3">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
-              Assigned Territory Bins
+              Territory Bin Checklist
             </p>
             <h3 className="text-2xl font-black text-foreground">
-              {kmlData?.progress?.collected || 0} / {bins.length} Collected
+              {kmlData?.driverZoneName || 'Zone A'} Pickups
             </h3>
           </div>
-          <span className={`border-4 px-4 py-2 text-lg font-black uppercase ${
+          <span className={`border-4 px-3 py-1.5 text-sm font-black uppercase ${
             isAllDone ? "border-emerald-600 bg-emerald-100 text-emerald-800" : "border-amber-500 bg-amber-100 text-amber-900"
           }`}>
-            {isAllDone ? "Route Complete" : "In Progress"}
+            {isAllDone ? "Done" : `${kmlData?.progress?.percentage || 0}%`}
           </span>
         </div>
 
-        <ol className="space-y-4">
+        <ol className="space-y-3">
           {bins.map((bin, i) => {
             const isCollected = bin.isCollected;
             return (
               <li
                 key={bin.id || bin.name}
-                className={`border-4 p-4 transition-colors ${
+                className={`border-4 p-4 transition-all ${
                   isCollected
-                    ? "border-emerald-500 bg-emerald-50/50"
+                    ? "border-emerald-500 bg-emerald-50/60"
                     : "border-border bg-card"
                 }`}
               >
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div>
-                    <div className="flex items-center gap-3">
-                      <span className={`flex h-9 w-9 items-center justify-center rounded-full text-base font-black text-white ${
+                    <div className="flex items-center gap-2.5">
+                      <span className={`flex h-8 w-8 items-center justify-center rounded-full text-sm font-black text-white ${
                         isCollected ? "bg-emerald-600" : "bg-red-600"
                       }`}>
                         {i + 1}
                       </span>
-                      <p className="text-2xl font-extrabold text-foreground">
+                      <p className="text-xl font-extrabold text-foreground">
                         {bin.name}
                       </p>
                     </div>
-                    <p className="mt-1 text-sm font-bold text-muted-foreground">
+                    <p className="mt-1 text-xs font-bold text-muted-foreground">
                       Coordinates: {bin.lat.toFixed(4)}, {bin.lng.toFixed(4)} | Zone: {bin.zone}
                     </p>
                   </div>
 
-                  {/* Bin Collected Option: YES / NO */}
-                  <div className="flex items-center gap-2">
+                  {/* YES / NO Bin Mark Controls */}
+                  <div className="flex items-center gap-2 self-end sm:self-center">
                     <span className="text-xs font-black uppercase text-muted-foreground mr-1">
-                      Bin Collected:
+                      Mark Bin:
                     </span>
                     <button
                       onClick={() => handleToggleBinCollection(bin.name, false)}
-                      className={`flex items-center gap-1.5 border-4 px-4 py-2 text-base font-black uppercase transition-all ${
+                      className={`flex items-center gap-1 border-3 px-3.5 py-1.5 text-sm font-black uppercase transition-all ${
                         isCollected
-                          ? "border-emerald-600 bg-emerald-600 text-white shadow-md"
+                          ? "border-emerald-600 bg-emerald-600 text-white shadow-sm"
                           : "border-slate-300 bg-slate-100 text-slate-500 opacity-60"
                       }`}
                     >
-                      <Check className="size-5" /> YES
+                      <Check className="size-4" /> YES
                     </button>
 
                     <button
                       onClick={() => handleToggleBinCollection(bin.name, true)}
-                      className={`flex items-center gap-1.5 border-4 px-4 py-2 text-base font-black uppercase transition-all ${
+                      className={`flex items-center gap-1 border-3 px-3.5 py-1.5 text-sm font-black uppercase transition-all ${
                         !isCollected
-                          ? "border-red-600 bg-red-600 text-white shadow-md"
+                          ? "border-red-600 bg-red-600 text-white shadow-sm"
                           : "border-slate-300 bg-slate-100 text-slate-500 opacity-60"
                       }`}
                     >
-                      <X className="size-5" /> NO
+                      <X className="size-4" /> NO
                     </button>
                   </div>
                 </div>

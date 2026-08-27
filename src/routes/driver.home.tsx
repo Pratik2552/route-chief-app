@@ -89,6 +89,13 @@ function DriverHome() {
         </ul>
       </section>
 
+      <button
+        onClick={() => navigate({ to: "/driver/territory" as any })}
+        className="w-full border-4 border-blue-600 bg-blue-600 py-4 text-xl font-extrabold uppercase text-white shadow-md hover:bg-blue-700 flex items-center justify-center gap-2"
+      >
+        <MapPin className="size-6" /> Open My Territory Map
+      </button>
+
       {state.onDuty ? (
         <button
           onClick={() => {
