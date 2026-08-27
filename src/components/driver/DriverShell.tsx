@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
-import { Home, Map, PackageCheck, User } from "lucide-react";
+import { Home, Map, PackageCheck, User, QrCode, FileText } from "lucide-react";
 import type { ReactNode } from "react";
 
 const NAV = [
   { to: "/driver/home", label: "Home", icon: Home },
-  { to: "/driver/navigation", label: "Route", icon: Map },
-  { to: "/driver/collect/$binId", label: "Collect", icon: PackageCheck },
+  { to: "/driver/navigation", label: "Territory", icon: Map },
+  { to: "/driver/live-reports", label: "Reports", icon: FileText },
+  { to: "/driver/qr-generator", label: "QR Code", icon: QrCode },
   { to: "/driver/profile", label: "Profile", icon: User },
 ] as const;
 
@@ -32,14 +33,14 @@ export function DriverShell({
 
       <main className={flush ? "flex-1" : "flex-1 space-y-4 p-4 pb-6"}>{children}</main>
 
-      <nav className="sticky bottom-0 z-[500] grid grid-cols-4 border-t-4 border-border bg-card">
+      <nav className="sticky bottom-0 z-[500] grid grid-cols-5 border-t-4 border-border bg-card">
         {NAV.map(({ to, label, icon: Icon }) => {
           const common = {
             activeProps: { className: "bg-secondary text-secondary-foreground" },
             className: "flex flex-col items-center gap-1 py-3 text-foreground",
             children: (
               <>
-                <Icon className="size-7" strokeWidth={2.4} />
+                <Icon className="size-6" strokeWidth={2.4} />
                 <span className="text-xs font-bold uppercase tracking-wide">{label}</span>
               </>
             ),

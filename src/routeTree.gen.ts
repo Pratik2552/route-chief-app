@@ -10,9 +10,22 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthorityHomeRouteImport } from './routes/authority.home'
+import { Route as AuthorityLiveReportsRouteImport } from './routes/authority.live-reports'
+import { Route as AuthorityLoginRouteImport } from './routes/authority.login'
+import { Route as AuthorityProfileRouteImport } from './routes/authority.profile'
+import { Route as AuthorityQrCodeRouteImport } from './routes/authority.qr-code'
+import { Route as AuthorityVehiclesRouteImport } from './routes/authority.vehicles'
 import { Route as DriverHomeRouteImport } from './routes/driver.home'
+import { Route as DriverLiveReportsRouteImport } from './routes/driver.live-reports'
 import { Route as DriverNavigationRouteImport } from './routes/driver.navigation'
 import { Route as DriverProfileRouteImport } from './routes/driver.profile'
+import { Route as DriverQrGeneratorRouteImport } from './routes/driver.qr-generator'
+import { Route as DriverTerritoryRouteImport } from './routes/driver.territory'
+import { Route as VehicleDashboardRouteImport } from './routes/vehicle.dashboard'
+import { Route as VehicleLoginRouteImport } from './routes/vehicle.login'
+import { Route as VehicleQrCodeRouteImport } from './routes/vehicle.qr-code'
+import { Route as VehicleScanReportsRouteImport } from './routes/vehicle.scan-reports'
 import { Route as DriverCollectBinIdRouteImport } from './routes/driver.collect.$binId'
 
 const IndexRoute = IndexRouteImport.update({
@@ -20,9 +33,44 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthorityHomeRoute = AuthorityHomeRouteImport.update({
+  id: '/authority/home',
+  path: '/authority/home',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorityLiveReportsRoute = AuthorityLiveReportsRouteImport.update({
+  id: '/authority/live-reports',
+  path: '/authority/live-reports',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorityLoginRoute = AuthorityLoginRouteImport.update({
+  id: '/authority/login',
+  path: '/authority/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorityProfileRoute = AuthorityProfileRouteImport.update({
+  id: '/authority/profile',
+  path: '/authority/profile',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorityQrCodeRoute = AuthorityQrCodeRouteImport.update({
+  id: '/authority/qr-code',
+  path: '/authority/qr-code',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorityVehiclesRoute = AuthorityVehiclesRouteImport.update({
+  id: '/authority/vehicles',
+  path: '/authority/vehicles',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DriverHomeRoute = DriverHomeRouteImport.update({
   id: '/driver/home',
   path: '/driver/home',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DriverLiveReportsRoute = DriverLiveReportsRouteImport.update({
+  id: '/driver/live-reports',
+  path: '/driver/live-reports',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DriverNavigationRoute = DriverNavigationRouteImport.update({
@@ -35,6 +83,36 @@ const DriverProfileRoute = DriverProfileRouteImport.update({
   path: '/driver/profile',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DriverQrGeneratorRoute = DriverQrGeneratorRouteImport.update({
+  id: '/driver/qr-generator',
+  path: '/driver/qr-generator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DriverTerritoryRoute = DriverTerritoryRouteImport.update({
+  id: '/driver/territory',
+  path: '/driver/territory',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VehicleDashboardRoute = VehicleDashboardRouteImport.update({
+  id: '/vehicle/dashboard',
+  path: '/vehicle/dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VehicleLoginRoute = VehicleLoginRouteImport.update({
+  id: '/vehicle/login',
+  path: '/vehicle/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VehicleQrCodeRoute = VehicleQrCodeRouteImport.update({
+  id: '/vehicle/qr-code',
+  path: '/vehicle/qr-code',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VehicleScanReportsRoute = VehicleScanReportsRouteImport.update({
+  id: '/vehicle/scan-reports',
+  path: '/vehicle/scan-reports',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DriverCollectBinIdRoute = DriverCollectBinIdRouteImport.update({
   id: '/driver/collect/$binId',
   path: '/driver/collect/$binId',
@@ -43,55 +121,146 @@ const DriverCollectBinIdRoute = DriverCollectBinIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/authority/home': typeof AuthorityHomeRoute
+  '/authority/live-reports': typeof AuthorityLiveReportsRoute
+  '/authority/login': typeof AuthorityLoginRoute
+  '/authority/profile': typeof AuthorityProfileRoute
+  '/authority/qr-code': typeof AuthorityQrCodeRoute
+  '/authority/vehicles': typeof AuthorityVehiclesRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/live-reports': typeof DriverLiveReportsRoute
   '/driver/navigation': typeof DriverNavigationRoute
   '/driver/profile': typeof DriverProfileRoute
+  '/driver/qr-generator': typeof DriverQrGeneratorRoute
+  '/driver/territory': typeof DriverTerritoryRoute
+  '/vehicle/dashboard': typeof VehicleDashboardRoute
+  '/vehicle/login': typeof VehicleLoginRoute
+  '/vehicle/qr-code': typeof VehicleQrCodeRoute
+  '/vehicle/scan-reports': typeof VehicleScanReportsRoute
   '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/authority/home': typeof AuthorityHomeRoute
+  '/authority/live-reports': typeof AuthorityLiveReportsRoute
+  '/authority/login': typeof AuthorityLoginRoute
+  '/authority/profile': typeof AuthorityProfileRoute
+  '/authority/qr-code': typeof AuthorityQrCodeRoute
+  '/authority/vehicles': typeof AuthorityVehiclesRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/live-reports': typeof DriverLiveReportsRoute
   '/driver/navigation': typeof DriverNavigationRoute
   '/driver/profile': typeof DriverProfileRoute
+  '/driver/qr-generator': typeof DriverQrGeneratorRoute
+  '/driver/territory': typeof DriverTerritoryRoute
+  '/vehicle/dashboard': typeof VehicleDashboardRoute
+  '/vehicle/login': typeof VehicleLoginRoute
+  '/vehicle/qr-code': typeof VehicleQrCodeRoute
+  '/vehicle/scan-reports': typeof VehicleScanReportsRoute
   '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/authority/home': typeof AuthorityHomeRoute
+  '/authority/live-reports': typeof AuthorityLiveReportsRoute
+  '/authority/login': typeof AuthorityLoginRoute
+  '/authority/profile': typeof AuthorityProfileRoute
+  '/authority/qr-code': typeof AuthorityQrCodeRoute
+  '/authority/vehicles': typeof AuthorityVehiclesRoute
   '/driver/home': typeof DriverHomeRoute
+  '/driver/live-reports': typeof DriverLiveReportsRoute
   '/driver/navigation': typeof DriverNavigationRoute
   '/driver/profile': typeof DriverProfileRoute
+  '/driver/qr-generator': typeof DriverQrGeneratorRoute
+  '/driver/territory': typeof DriverTerritoryRoute
+  '/vehicle/dashboard': typeof VehicleDashboardRoute
+  '/vehicle/login': typeof VehicleLoginRoute
+  '/vehicle/qr-code': typeof VehicleQrCodeRoute
+  '/vehicle/scan-reports': typeof VehicleScanReportsRoute
   '/driver/collect/$binId': typeof DriverCollectBinIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/authority/home'
+    | '/authority/live-reports'
+    | '/authority/login'
+    | '/authority/profile'
+    | '/authority/qr-code'
+    | '/authority/vehicles'
     | '/driver/home'
+    | '/driver/live-reports'
     | '/driver/navigation'
     | '/driver/profile'
+    | '/driver/qr-generator'
+    | '/driver/territory'
+    | '/vehicle/dashboard'
+    | '/vehicle/login'
+    | '/vehicle/qr-code'
+    | '/vehicle/scan-reports'
     | '/driver/collect/$binId'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/authority/home'
+    | '/authority/live-reports'
+    | '/authority/login'
+    | '/authority/profile'
+    | '/authority/qr-code'
+    | '/authority/vehicles'
     | '/driver/home'
+    | '/driver/live-reports'
     | '/driver/navigation'
     | '/driver/profile'
+    | '/driver/qr-generator'
+    | '/driver/territory'
+    | '/vehicle/dashboard'
+    | '/vehicle/login'
+    | '/vehicle/qr-code'
+    | '/vehicle/scan-reports'
     | '/driver/collect/$binId'
   id:
     | '__root__'
     | '/'
+    | '/authority/home'
+    | '/authority/live-reports'
+    | '/authority/login'
+    | '/authority/profile'
+    | '/authority/qr-code'
+    | '/authority/vehicles'
     | '/driver/home'
+    | '/driver/live-reports'
     | '/driver/navigation'
     | '/driver/profile'
+    | '/driver/qr-generator'
+    | '/driver/territory'
+    | '/vehicle/dashboard'
+    | '/vehicle/login'
+    | '/vehicle/qr-code'
+    | '/vehicle/scan-reports'
     | '/driver/collect/$binId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuthorityHomeRoute: typeof AuthorityHomeRoute
+  AuthorityLiveReportsRoute: typeof AuthorityLiveReportsRoute
+  AuthorityLoginRoute: typeof AuthorityLoginRoute
+  AuthorityProfileRoute: typeof AuthorityProfileRoute
+  AuthorityQrCodeRoute: typeof AuthorityQrCodeRoute
+  AuthorityVehiclesRoute: typeof AuthorityVehiclesRoute
   DriverHomeRoute: typeof DriverHomeRoute
+  DriverLiveReportsRoute: typeof DriverLiveReportsRoute
   DriverNavigationRoute: typeof DriverNavigationRoute
   DriverProfileRoute: typeof DriverProfileRoute
+  DriverQrGeneratorRoute: typeof DriverQrGeneratorRoute
+  DriverTerritoryRoute: typeof DriverTerritoryRoute
+  VehicleDashboardRoute: typeof VehicleDashboardRoute
+  VehicleLoginRoute: typeof VehicleLoginRoute
+  VehicleQrCodeRoute: typeof VehicleQrCodeRoute
+  VehicleScanReportsRoute: typeof VehicleScanReportsRoute
   DriverCollectBinIdRoute: typeof DriverCollectBinIdRoute
 }
 
@@ -104,11 +273,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/authority/home': {
+      id: '/authority/home'
+      path: '/authority/home'
+      fullPath: '/authority/home'
+      preLoaderRoute: typeof AuthorityHomeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/authority/live-reports': {
+      id: '/authority/live-reports'
+      path: '/authority/live-reports'
+      fullPath: '/authority/live-reports'
+      preLoaderRoute: typeof AuthorityLiveReportsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/authority/login': {
+      id: '/authority/login'
+      path: '/authority/login'
+      fullPath: '/authority/login'
+      preLoaderRoute: typeof AuthorityLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/authority/profile': {
+      id: '/authority/profile'
+      path: '/authority/profile'
+      fullPath: '/authority/profile'
+      preLoaderRoute: typeof AuthorityProfileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/authority/qr-code': {
+      id: '/authority/qr-code'
+      path: '/authority/qr-code'
+      fullPath: '/authority/qr-code'
+      preLoaderRoute: typeof AuthorityQrCodeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/authority/vehicles': {
+      id: '/authority/vehicles'
+      path: '/authority/vehicles'
+      fullPath: '/authority/vehicles'
+      preLoaderRoute: typeof AuthorityVehiclesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/driver/home': {
       id: '/driver/home'
       path: '/driver/home'
       fullPath: '/driver/home'
       preLoaderRoute: typeof DriverHomeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/driver/live-reports': {
+      id: '/driver/live-reports'
+      path: '/driver/live-reports'
+      fullPath: '/driver/live-reports'
+      preLoaderRoute: typeof DriverLiveReportsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/driver/navigation': {
@@ -125,6 +343,48 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DriverProfileRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/driver/qr-generator': {
+      id: '/driver/qr-generator'
+      path: '/driver/qr-generator'
+      fullPath: '/driver/qr-generator'
+      preLoaderRoute: typeof DriverQrGeneratorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/driver/territory': {
+      id: '/driver/territory'
+      path: '/driver/territory'
+      fullPath: '/driver/territory'
+      preLoaderRoute: typeof DriverTerritoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vehicle/dashboard': {
+      id: '/vehicle/dashboard'
+      path: '/vehicle/dashboard'
+      fullPath: '/vehicle/dashboard'
+      preLoaderRoute: typeof VehicleDashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vehicle/login': {
+      id: '/vehicle/login'
+      path: '/vehicle/login'
+      fullPath: '/vehicle/login'
+      preLoaderRoute: typeof VehicleLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vehicle/qr-code': {
+      id: '/vehicle/qr-code'
+      path: '/vehicle/qr-code'
+      fullPath: '/vehicle/qr-code'
+      preLoaderRoute: typeof VehicleQrCodeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vehicle/scan-reports': {
+      id: '/vehicle/scan-reports'
+      path: '/vehicle/scan-reports'
+      fullPath: '/vehicle/scan-reports'
+      preLoaderRoute: typeof VehicleScanReportsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/driver/collect/$binId': {
       id: '/driver/collect/$binId'
       path: '/driver/collect/$binId'
@@ -137,9 +397,22 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuthorityHomeRoute: AuthorityHomeRoute,
+  AuthorityLiveReportsRoute: AuthorityLiveReportsRoute,
+  AuthorityLoginRoute: AuthorityLoginRoute,
+  AuthorityProfileRoute: AuthorityProfileRoute,
+  AuthorityQrCodeRoute: AuthorityQrCodeRoute,
+  AuthorityVehiclesRoute: AuthorityVehiclesRoute,
   DriverHomeRoute: DriverHomeRoute,
+  DriverLiveReportsRoute: DriverLiveReportsRoute,
   DriverNavigationRoute: DriverNavigationRoute,
   DriverProfileRoute: DriverProfileRoute,
+  DriverQrGeneratorRoute: DriverQrGeneratorRoute,
+  DriverTerritoryRoute: DriverTerritoryRoute,
+  VehicleDashboardRoute: VehicleDashboardRoute,
+  VehicleLoginRoute: VehicleLoginRoute,
+  VehicleQrCodeRoute: VehicleQrCodeRoute,
+  VehicleScanReportsRoute: VehicleScanReportsRoute,
   DriverCollectBinIdRoute: DriverCollectBinIdRoute,
 }
 export const routeTree = rootRouteImport

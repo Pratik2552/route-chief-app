@@ -12,6 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { DriverProvider } from "../lib/driver-store";
+import { VehicleAuthorityProvider } from "../lib/vehicle-authority-store";
 import { Toaster } from "../components/ui/sonner";
 
 
@@ -80,13 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CivicSync Driver App" },
-      { name: "description", content: "Field app for municipal waste collection vehicle drivers." },
+      { title: "CivicSync Vehicle Authority Portal" },
+      { name: "description", content: "Vehicle Authority Portal for fleet management and operations." },
       { name: "author", content: "CivicSync" },
-      { property: "og:title", content: "CivicSync Driver App" },
+      { property: "og:title", content: "CivicSync Vehicle Authority Portal" },
       {
         property: "og:description",
-        content: "Field app for municipal waste collection vehicle drivers.",
+        content: "Vehicle Authority Portal for fleet management and operations.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -126,11 +127,13 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <DriverProvider>
-        {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-        <Outlet />
-        <Toaster position="top-center" />
-      </DriverProvider>
+      <VehicleAuthorityProvider>
+        <DriverProvider>
+          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+          <Outlet />
+          <Toaster position="top-center" />
+        </DriverProvider>
+      </VehicleAuthorityProvider>
     </QueryClientProvider>
   );
 }
