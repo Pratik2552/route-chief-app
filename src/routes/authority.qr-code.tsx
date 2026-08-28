@@ -292,7 +292,7 @@ function AuthorityQRCodePage() {
                   </div>
 
                   <div className="text-center text-sm text-muted-foreground print:text-xl print:mt-8">
-                    <p className="font-bold">📱 How It Works:</p>
+                    <p className="font-bold">How It Works:</p>
                     <p className="mt-2">When citizens scan this QR code:</p>
                     <ol className="mt-2 text-left inline-block text-xs space-y-1">
                       <li>1. Opens scan page automatically</li>

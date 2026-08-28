@@ -52,8 +52,9 @@ function AuthorityProfile() {
       return;
     }
 
+    const baseUrl = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL}/api`;
     try {
-      const response = await fetch(`${API_BASE_URL}/api/auth/vehicle-authority/profile`, {
+      const response = await fetch(`${baseUrl}/auth/vehicle-authority/profile`, {
         headers: {
           Authorization: `Bearer ${state.access_token}`,
         },
@@ -80,9 +81,10 @@ function AuthorityProfile() {
 
   const handleSave = async () => {
     setIsSaving(true);
+    const baseUrl = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL}/api`;
 
     try {
-      const response = await fetch(`${API_BASE_URL}/api/auth/vehicle-authority/profile`, {
+      const response = await fetch(`${baseUrl}/auth/vehicle-authority/profile`, {
         method: "PATCH",
         headers: {
           Authorization: `Bearer ${state.access_token}`,

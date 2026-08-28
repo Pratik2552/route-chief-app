@@ -185,10 +185,10 @@ function VehicleDashboard() {
 
               <Link
                 to="/driver/territory"
-                className="flex w-full items-center gap-3 border-4 border-blue-600 bg-blue-600 px-6 py-4 font-bold uppercase text-white hover:bg-blue-700 shadow-md"
+                className="flex w-full items-center gap-3 border-4 border-orange-600 bg-orange-600 px-6 py-4 font-bold uppercase text-white hover:bg-orange-500 shadow-md"
               >
                 <Truck className="h-6 w-6" />
-                <span>🗺️ View My Territory &amp; Route Map</span>
+                <span>View My Territory &amp; Route Map</span>
               </Link>
 
               <Link
