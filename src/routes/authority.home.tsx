@@ -73,8 +73,9 @@ function AuthorityHome() {
     setError("");
 
     try {
+      const baseUrl = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL}/api`;
       // Fetch stats
-      const statsResponse = await fetch(`${API_BASE_URL}/api/vehicle-authority/dashboard-stats`, {
+      const statsResponse = await fetch(`${baseUrl}/vehicle-authority/dashboard-stats`, {
         headers: {
           Authorization: `Bearer ${state.access_token}`,
         },
@@ -86,7 +87,7 @@ function AuthorityHome() {
       }
 
       // Fetch vehicles
-      const vehiclesResponse = await fetch(`${API_BASE_URL}/api/vehicle-authority/vehicles`, {
+      const vehiclesResponse = await fetch(`${baseUrl}/vehicle-authority/vehicles`, {
         headers: {
           Authorization: `Bearer ${state.access_token}`,
         },

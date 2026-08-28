@@ -1,84 +1,77 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
-import { Truck, Lock, User, ShieldCheck } from "lucide-react";
+import { Truck, ShieldCheck, User, Lock } from "lucide-react";
+import { useVehicleAuthority, API_BASE_URL } from "@/lib/vehicle-authority-store";
 
 export const Route = createFileRoute("/vehicle/login")({
   head: () => ({
     meta: [
-      { title: "Vehicle Portal Login | CivicSync" },
-      {
-        name: "description",
-        content: "Login to the Vehicle Portal with your unique vehicle credentials.",
-      },
-      { property: "og:title", content: "Vehicle Portal Login | CivicSync" },
-      {
-        property: "og:description",
-        content: "Secure login portal for vehicle operators.",
-      },
+      { title: "Vehicle Operator Login | CivicSync" },
+      { name: "description", content: "Secure login portal for vehicle operators." },
     ],
   }),
-  component: VehicleLogin,
+  component: VehicleLoginPage,
 });
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000/api";
-
-function VehicleLogin() {
+function VehicleLoginPage() {
   const navigate = useNavigate();
+  const { setAuth } = useVehicleAuthority();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError("");
     setLoading(true);
+    setError("");
 
     try {
-      console.log('🔐 Vehicle Login - API URL:', `${API_BASE_URL}/auth/vehicle/login`);
-      
-      const response = await fetch(`${API_BASE_URL}/auth/vehicle/login`, {
+      const baseUrl = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL}/api`;
+      const response = await fetch(`${baseUrl}/auth/vehicle/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({
+          username: username.trim(),
+          identifier: username.trim(),
+          password: password,
+        }),
       });
 
       const data = await response.json();
 
-      if (!response.ok) {
-        console.error('❌ Login failed:', data);
-        setError(data.error || "Login failed. Please check your credentials.");
-        setLoading(false);
-        return;
+      if (response.ok && data.access_token) {
+        localStorage.setItem("civicsync_vehicle_token", data.access_token);
+        localStorage.setItem("civicsync_vehicle_data", JSON.stringify(data.vehicle));
+        window.location.href = "/driver/territory";
+      } else {
+        setError(data.error || "Login failed. Please check credentials.");
       }
-
-      console.log('✅ Login successful:', data.vehicle);
-
-      // Store vehicle auth data
-      localStorage.setItem('civicsync_vehicle_token', data.access_token);
-      localStorage.setItem('civicsync_vehicle_data', JSON.stringify(data.vehicle));
-
-      // Redirect to vehicle dashboard
-      navigate({ to: "/vehicle/dashboard" });
-    } catch (error) {
-      console.error("Login error:", error);
-      setError("Network error. Please check your connection and ensure the backend server is running.");
+    } catch (err: any) {
+      console.error("Vehicle login frontend error:", err);
+      setError(err?.message || "Network error. Please try again.");
+    } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900 font-sans">
-      {/* Government-style Top Strip */}
-      <div className="bg-slate-900 text-slate-100 border-b-4 border-amber-500 py-2 px-6 flex justify-between items-center text-xs tracking-wider uppercase">
-        <div className="flex items-center space-x-2 font-semibold">
-          <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span>CivicSync Official Fleet Governance Network</span>
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between font-sans antialiased">
+      {/* Top Banner */}
+      <div className="border-b border-slate-800 bg-slate-900/90 px-6 py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-600 text-white font-black">
+            <Truck className="h-6 w-6" />
+          </div>
+          <div>
+            <span className="text-lg font-black uppercase text-white tracking-wider">CivicSync</span>
+            <span className="block text-[10px] font-bold text-orange-400 uppercase tracking-widest">Driver &amp; Vehicle Operations</span>
+          </div>
         </div>
-        <div className="hidden sm:block text-slate-400">
-          Government & Municipal Operations Portal
+        <div className="text-xs font-extrabold text-slate-400 uppercase tracking-wider">
+          Municipal Operations Gateway
         </div>
       </div>
 
@@ -87,106 +80,102 @@ function VehicleLogin() {
         <div className="w-full max-w-lg">
           
           {/* Header Badge */}
-          <div className="mb-6 text-center bg-white border border-slate-300 shadow-sm p-6 rounded-t-lg border-t-4 border-t-blue-900">
-            <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-blue-900 text-amber-400 shadow-inner">
+          <div className="mb-6 text-center bg-slate-900 border border-slate-800 shadow-2xl p-6 rounded-t-2xl border-t-4 border-t-orange-600">
+            <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-600/20 text-orange-400 border border-orange-500/30">
               <Truck className="h-8 w-8" />
             </div>
-            <div className="flex items-center justify-center space-x-1.5 text-xs font-bold text-blue-900 uppercase tracking-widest mb-1">
-              <ShieldCheck className="w-4 h-4 text-emerald-600" />
+            <div className="flex items-center justify-center space-x-1.5 text-xs font-extrabold text-emerald-400 uppercase tracking-widest mb-1">
+              <ShieldCheck className="w-4 h-4" />
               <span>Secure Authentication Gateway</span>
             </div>
-            <h1 className="text-3xl font-black tracking-tight text-blue-950 uppercase">
+            <h1 className="text-3xl font-black tracking-tight text-white uppercase">
               CivicSync
             </h1>
-            <p className="text-sm font-bold uppercase tracking-wider text-slate-600 mt-1">
-              Municipal Fleet & Vehicle Portal
+            <p className="text-xs font-extrabold uppercase tracking-wider text-slate-400 mt-1">
+              Municipal Fleet &amp; Vehicle Portal
             </p>
           </div>
 
           {/* Login Card Body */}
-          <div className="bg-white border border-slate-300 border-t-0 shadow-md p-8 rounded-b-lg">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-4 mb-6">
-              <h2 className="text-xl font-extrabold uppercase text-slate-800 tracking-wide">
+          <div className="bg-slate-900 border border-slate-800 border-t-0 shadow-2xl p-8 rounded-b-2xl">
+            <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+              <h2 className="text-lg font-black uppercase text-white tracking-wide">
                 Operator Login
               </h2>
-              <span className="text-xs font-mono bg-slate-100 text-slate-600 px-2.5 py-1 rounded border border-slate-200">
+              <span className="text-xs font-mono bg-slate-950 text-orange-400 px-3 py-1 rounded-lg border border-slate-800 font-bold">
                 AUTH_LEVEL_2
               </span>
             </div>
 
             {error && (
-              <div className="mb-6 border-l-4 border-red-600 bg-red-50 p-4 rounded-r">
-                <p className="text-sm font-semibold text-red-800">{error}</p>
+              <div className="mb-6 border-l-4 border-red-500 bg-red-950/40 p-4 rounded-r-xl">
+                <p className="text-xs font-bold text-red-400">{error}</p>
               </div>
             )}
 
             <form onSubmit={handleSubmit} className="space-y-5">
-              {/* Username Field */}
               <div>
                 <label
                   htmlFor="username"
-                  className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-700"
+                  className="mb-1.5 block text-xs font-extrabold uppercase tracking-wider text-slate-300"
                 >
-                  Email or Vehicle Username
+                  Email or Vehicle License Plate
                 </label>
                 <div className="relative">
-                  <User className="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
+                  <User className="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-500" />
                   <input
                     id="username"
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
-                    className="w-full rounded border border-slate-300 bg-white py-3 pl-11 pr-4 text-sm font-medium text-slate-800 placeholder:text-slate-400 focus:border-blue-900 focus:ring-1 focus:ring-blue-900 focus:outline-none transition-all"
-                    placeholder="operator@civicsync.gov or VEH-ABC-123"
+                    className="w-full rounded-xl border border-slate-800 bg-slate-950 py-3.5 pl-11 pr-4 text-sm font-bold text-white placeholder:text-slate-600 focus:border-orange-500 focus:outline-none transition-all"
+                    placeholder="operator@civicsync.gov or MH-15-EX-4021"
                     disabled={loading}
                   />
                 </div>
               </div>
 
-              {/* Password Field */}
               <div>
                 <label
                   htmlFor="password"
-                  className="mb-1.5 block text-xs font-bold uppercase tracking-wider text-slate-700"
+                  className="mb-1.5 block text-xs font-extrabold uppercase tracking-wider text-slate-300"
                 >
                   Password
                 </label>
                 <div className="relative">
-                  <Lock className="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
+                  <Lock className="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-500" />
                   <input
                     id="password"
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
-                    className="w-full rounded border border-slate-300 bg-white py-3 pl-11 pr-4 text-sm font-medium text-slate-800 placeholder:text-slate-400 focus:border-blue-900 focus:ring-1 focus:ring-blue-900 focus:outline-none transition-all"
+                    className="w-full rounded-xl border border-slate-800 bg-slate-950 py-3.5 pl-11 pr-4 text-sm font-bold text-white placeholder:text-slate-600 focus:border-orange-500 focus:outline-none transition-all"
                     placeholder="••••••••"
                     disabled={loading}
                   />
                 </div>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full rounded bg-blue-900 py-3.5 text-sm font-bold uppercase tracking-wider text-white shadow hover:bg-blue-950 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:ring-offset-2 disabled:opacity-50 transition-all"
+                className="w-full rounded-xl bg-orange-600 py-4 text-xs font-black uppercase tracking-wider text-white shadow-lg shadow-orange-600/30 hover:bg-orange-500 disabled:opacity-50 transition-all"
               >
-                {loading ? "Authenticating Session..." : "Sign In to Fleet Terminal"}
+                {loading ? "Authenticating Session..." : "Sign In to Driver Terminal"}
               </button>
             </form>
 
-            {/* Gov Instructions / Info Box */}
             <div className="mt-8 space-y-4">
-              <div className="border-t border-slate-200 pt-4">
-                <div className="rounded border border-blue-100 bg-blue-50/60 p-4">
-                  <p className="text-xs font-bold text-blue-900 mb-2 flex items-center space-x-1.5 uppercase tracking-wide">
-                    <span>📌 Operator Instructions</span>
+              <div className="border-t border-slate-800 pt-4">
+                <div className="rounded-xl border border-slate-800 bg-slate-950 p-4">
+                  <p className="text-xs font-extrabold text-orange-400 mb-2 uppercase tracking-wide">
+                    Operator Instructions
                   </p>
-                  <ul className="text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                  <ul className="text-xs text-slate-400 space-y-1.5 list-disc list-inside font-semibold">
                     <li>Use official credentials issued by the municipal transport admin</li>
-                    <li>Vehicle identifier format: <code className="bg-white px-1 py-0.5 rounded border border-blue-200 text-blue-900 font-mono">VEH-{"{"}license plate{"}"}</code></li>
+                    <li>Vehicle identifier format: <code className="bg-slate-900 px-1.5 py-0.5 rounded border border-slate-800 text-amber-400 font-mono">MH-15-EX-4021</code></li>
                     <li>All login sessions are logged for audit compliance</li>
                   </ul>
                 </div>
@@ -194,16 +183,16 @@ function VehicleLogin() {
             </div>
           </div>
 
-          {/* Footer Note */}
           <div className="mt-6 text-center">
-            <p className="text-xs font-medium text-slate-500">
+            <p className="text-xs font-semibold text-slate-500">
               Need assistance or password reset? Contact your regional system administrator.
-            </p>
-            <p className="text-[10px] text-slate-400 mt-1 uppercase tracking-widest">
-              CivicSync Enterprise Resource Planning • Secure Portal v2.4
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="border-t border-slate-800 bg-slate-900 px-6 py-4 text-center text-xs font-semibold text-slate-500">
+        CivicSync Waste Management System &copy; 2026. All rights reserved.
       </div>
     </div>
   );

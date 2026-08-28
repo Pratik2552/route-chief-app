@@ -54,7 +54,8 @@ function AuthorityVehicles() {
 
     setIsLoading(true);
     try {
-      const response = await fetch(`${API_BASE_URL}/api/vehicle-authority/vehicles`, {
+      const baseUrl = API_BASE_URL.endsWith('/api') ? API_BASE_URL : `${API_BASE_URL}/api`;
+      const response = await fetch(`${baseUrl}/vehicle-authority/vehicles`, {
         headers: {
           Authorization: `Bearer ${state.access_token}`,
         },

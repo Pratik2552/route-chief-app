@@ -270,7 +270,7 @@ function VehicleQRCodePage() {
                 </div>
 
                 <div className="text-center text-sm text-muted-foreground print:text-xl print:mt-8">
-                  <p className="font-bold">📱 How to Use:</p>
+                  <p className="font-bold">How to Use:</p>
                   <p>Citizens can scan this QR code to report garbage collection</p>
                   <p className="text-xs mt-2 print:text-lg">
                     Generated: {new Date(qrData.generated_at).toLocaleString()}
@@ -336,7 +336,7 @@ function VehicleQRCodePage() {
           {/* Security Notice */}
           <section className="border-4 border-muted bg-muted/50 p-4 print:hidden">
             <p className="text-xs text-muted-foreground">
-              <span className="font-bold">🔒 Security Notice:</span> This QR code is unique to your vehicle 
+              <span className="font-bold">Security Notice:</span> This QR code is unique to your vehicle 
               ({qrData.license_plate}) and should not be shared with other vehicles. Each scan is logged 
               with timestamp and location for accountability. This QR code is permanent and tied to your 
               vehicle only.
