@@ -55,6 +55,89 @@ function DriverNavigation() {
   const licensePlate = vehicleObj?.license_plate || "";
   const vehicleId = vehicleObj?.id || vehicleObj?.vehicle_id || vehicleObj?.vehicleId || null;
 
+  const getMappedBinForDemoUser = () => {
+    try {
+      const savedUser = JSON.parse(localStorage.getItem('civicsync_user') || 'null');
+      const email = (savedUser?.email || '').toLowerCase();
+      if (email === 'zandu@gmail.com') {
+        return { name: 'BIN-001', lat: 18.5308, lng: 73.8474, zone: 'Zone A' };
+      }
+    } catch (err) {
+      console.warn('Demo bin mapping lookup failed:', err);
+    }
+    return null;
+  };
+
+  const getLastQrScanWithinHour = () => {
+    try {
+      const scan = JSON.parse(localStorage.getItem('civicsync_recent_bin_scan') || 'null');
+      if (!scan) return null;
+      if ((scan.email || '').toLowerCase() !== 'zandu@gmail.com') return null;
+      const elapsedMs = Date.now() - new Date(scan.timestamp || Date.now()).getTime();
+      if (elapsedMs > 60 * 60 * 1000) return null;
+      return scan;
+    } catch (err) {
+      console.warn('Demo scan read failed:', err);
+      return null;
+    }
+  };
+
+  const getDriverDistanceKm = (lat1: number, lon1: number, lat2: number, lon2: number) => {
+    const toRad = (value: number) => (value * Math.PI) / 180;
+    const earthRadiusKm = 6371;
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    return 2 * earthRadiusKm * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  };
+
+  const normalizeDemoBins = (data: KMLMapResponse | null): KMLMapResponse | null => {
+    if (!data) return data;
+
+    const mappedBin = getMappedBinForDemoUser();
+    if (!mappedBin) return data;
+
+    const normalizedBins = (data.bins || []).map((bin) => {
+      const matchesMappedBin = bin.name.toLowerCase() === mappedBin.name.toLowerCase();
+      return {
+        ...bin,
+        zone: matchesMappedBin ? mappedBin.zone : bin.zone,
+        isCollected: matchesMappedBin ? !!bin.isCollected : false,
+      };
+    });
+
+    const mappedExists = normalizedBins.some((bin) => bin.name.toLowerCase() === mappedBin.name.toLowerCase());
+    const safeBins = mappedExists
+      ? normalizedBins
+      : [
+          ...normalizedBins,
+          {
+            id: mappedBin.name,
+            name: mappedBin.name,
+            lat: mappedBin.lat,
+            lng: mappedBin.lng,
+            zone: mappedBin.zone,
+            isCollected: false,
+          },
+        ];
+
+    const collectedCount = safeBins.filter((bin) => bin.isCollected).length;
+
+    return {
+      ...data,
+      bins: safeBins,
+      isAllCollected: safeBins.length > 0 && collectedCount === safeBins.length,
+      progress: {
+        total: safeBins.length,
+        collected: collectedCount,
+        percentage: safeBins.length > 0 ? Math.round((collectedCount / safeBins.length) * 100) : 0,
+      },
+    };
+  };
+
   const fetchDriverKMLMap = async () => {
     try {
       const token = localStorage.getItem('civicsync_vehicle_token');
@@ -70,7 +153,7 @@ function DriverNavigation() {
 
       const data = await res.json();
       if (res.ok && data.success) {
-        setKmlData(data);
+        setKmlData(normalizeDemoBins(data));
       }
     } catch (err) {
       console.error("Failed to fetch driver KML map:", err);
@@ -115,15 +198,21 @@ function DriverNavigation() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isMapExpanded]);
 
-  const handleToggleBinCollection = async (binName: string, currentStatus: boolean) => {
-    const newStatus = !currentStatus;
+  const handleToggleBinCollection = async (binName: string, targetStatus: boolean) => {
     setUpdatingBinName(binName);
 
-    // Obtain Driver Mobile GPS Location
+    const mappedBin = getMappedBinForDemoUser();
+
+    if (targetStatus && mappedBin && binName !== mappedBin.name) {
+      toast.error(`Only ${mappedBin.name} is mapped for zandu@gmail.com in ${mappedBin.zone}.`);
+      setUpdatingBinName(null);
+      return;
+    }
+
     let driverLat: number | undefined = undefined;
     let driverLng: number | undefined = undefined;
 
-    if (newStatus && typeof navigator !== 'undefined' && "geolocation" in navigator) {
+    if (targetStatus && typeof navigator !== 'undefined' && "geolocation" in navigator) {
       try {
         const pos = await new Promise<GeolocationPosition>((resolve, reject) => {
           navigator.geolocation.getCurrentPosition(resolve, reject, { timeout: 3500, enableHighAccuracy: true });
@@ -138,6 +227,28 @@ function DriverNavigation() {
       }
     }
 
+    if (targetStatus && mappedBin && binName === mappedBin.name) {
+      const recentScan = getLastQrScanWithinHour();
+      if (!recentScan) {
+        toast.error('No QR scan from zandu@gmail.com was found within the last 1 hour.');
+        setUpdatingBinName(null);
+        return;
+      }
+
+      if (driverLat === undefined || driverLng === undefined) {
+        toast.error('Driver live location is required to validate BIN-001 collection.');
+        setUpdatingBinName(null);
+        return;
+      }
+
+      const driverDistanceKm = getDriverDistanceKm(driverLat, driverLng, recentScan.latitude, recentScan.longitude);
+      if (driverDistanceKm > 0.25) {
+        toast.error(`Location mismatch: driver is ${driverDistanceKm.toFixed(2)} km from the scanned BIN-001 location.`);
+        setUpdatingBinName(null);
+        return;
+      }
+    }
+
     try {
       const res = await fetch(`${API_BASE_URL}/kml/mark-collected`, {
         method: 'POST',
@@ -146,7 +257,7 @@ function DriverNavigation() {
         },
         body: JSON.stringify({
           binName,
-          collected: newStatus,
+          collected: targetStatus,
           driverName,
           driverLat,
           driverLng,
@@ -155,7 +266,7 @@ function DriverNavigation() {
 
       const data = await res.json();
       if (res.ok && data.success) {
-        toast.success(`Bin ${binName} set to ${newStatus ? 'COLLECTED (YES)' : 'PENDING (NO)'}`);
+        toast.success(`Bin ${binName} set to ${targetStatus ? 'COLLECTED (YES)' : 'PENDING (NO)'}`);
         fetchDriverKMLMap();
       } else {
         toast.error(data.error || `Verification failed for bin ${binName}`);
@@ -356,7 +467,7 @@ function DriverNavigation() {
                         {/* Controls with Per-Bin Spinner */}
                         <div className="flex items-center gap-2 self-end sm:self-center">
                           <button
-                            onClick={() => handleToggleBinCollection(bin.name, false)}
+                            onClick={() => handleToggleBinCollection(bin.name, true)}
                             disabled={isThisUpdating}
                             className={`flex items-center gap-1.5 rounded-lg px-3.5 py-2 text-xs font-black uppercase tracking-wider transition-all ${
                               isCollected
@@ -373,7 +484,7 @@ function DriverNavigation() {
                           </button>
 
                           <button
-                            onClick={() => handleToggleBinCollection(bin.name, true)}
+                            onClick={() => handleToggleBinCollection(bin.name, false)}
                             disabled={isThisUpdating}
                             className={`flex items-center gap-1.5 rounded-lg px-3.5 py-2 text-xs font-black uppercase tracking-wider transition-all ${
                               !isCollected

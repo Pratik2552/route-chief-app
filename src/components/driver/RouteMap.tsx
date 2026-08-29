@@ -205,7 +205,7 @@ export default function RouteMap({
               weight: 3,
             }}
             eventHandlers={{
-              click: () => onToggleBin && onToggleBin(b.name, isGreen),
+              click: () => onToggleBin && onToggleBin(b.name, !isGreen),
             }}
           >
             {/* Non-permanent tooltip prevents clumsy label overlapping */}

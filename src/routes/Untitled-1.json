@@ -1,0 +1,7875 @@
+{
+	"knownSymbols": {
+		"defineConfig": [
+			{
+				"name": "defineConfig",
+				"module": "@lovable.dev/vite-tanstack-config",
+				"isDefault": false
+			},
+			{
+				"name": "defineConfig",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\vite.config.ts",
+				"isDefault": true
+			}
+		],
+		"startInstance": [
+			{
+				"name": "startInstance",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\start.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"createStart": [
+			{
+				"name": "createStart",
+				"module": "@tanstack/react-start",
+				"isDefault": false
+			}
+		],
+		"createCsrfMiddleware": [
+			{
+				"name": "createCsrfMiddleware",
+				"module": "@tanstack/react-start",
+				"isDefault": false
+			}
+		],
+		"createMiddleware": [
+			{
+				"name": "createMiddleware",
+				"module": "@tanstack/react-start",
+				"isDefault": false
+			}
+		],
+		"default": [
+			{
+				"name": "default",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\server.ts",
+				"isDefault": false
+			}
+		],
+		"FileRoutesByFullPath": [
+			{
+				"name": "FileRoutesByFullPath",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileRoutesByTo": [
+			{
+				"name": "FileRoutesByTo",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileRoutesById": [
+			{
+				"name": "FileRoutesById",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileRouteTypes": [
+			{
+				"name": "FileRouteTypes",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"RootRouteChildren": [
+			{
+				"name": "RootRouteChildren",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"routeTree": [
+			{
+				"name": "routeTree",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routeTree.gen.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"Route": [
+			{
+				"name": "Route",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\routes\\authority.home.tsx",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"QueryClient": [
+			{
+				"name": "QueryClient",
+				"module": "@tanstack/react-query",
+				"isDefault": false
+			}
+		],
+		"QueryClientProvider": [
+			{
+				"name": "QueryClientProvider",
+				"module": "@tanstack/react-query",
+				"isDefault": false
+			}
+		],
+		"useEffect": [
+			{
+				"name": "useEffect",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"type ReactNode": [
+			{
+				"name": "type ReactNode",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"createFileRoute": [
+			{
+				"name": "createFileRoute",
+				"module": "@tanstack/react-router",
+				"isDefault": false
+			}
+		],
+		"useNavigate": [
+			{
+				"name": "useNavigate",
+				"module": "@tanstack/react-router",
+				"isDefault": false
+			}
+		],
+		"Link": [
+			{
+				"name": "Link",
+				"module": "@tanstack/react-router",
+				"isDefault": false
+			}
+		],
+		"useState": [
+			{
+				"name": "useState",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"ArrowLeft": [
+			{
+				"name": "ArrowLeft",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"RefreshCw": [
+			{
+				"name": "RefreshCw",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"AlertCircle": [
+			{
+				"name": "AlertCircle",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"MapPin": [
+			{
+				"name": "MapPin",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"User": [
+			{
+				"name": "User",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Clock": [
+			{
+				"name": "Clock",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"CheckCircle": [
+			{
+				"name": "CheckCircle",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"XCircle": [
+			{
+				"name": "XCircle",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Image": [
+			{
+				"name": "Image",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"QrCode": [
+			{
+				"name": "QrCode",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Download": [
+			{
+				"name": "Download",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Copy": [
+			{
+				"name": "Copy",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Check": [
+			{
+				"name": "Check",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Printer": [
+			{
+				"name": "Printer",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Truck": [
+			{
+				"name": "Truck",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"QRCodeCanvas": [
+			{
+				"name": "QRCodeCanvas",
+				"module": "qrcode.react",
+				"isDefault": false
+			}
+		],
+		"ShieldCheck": [
+			{
+				"name": "ShieldCheck",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Lock": [
+			{
+				"name": "Lock",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"useVehicleAuthority": [
+			{
+				"name": "useVehicleAuthority",
+				"module": "@/lib/vehicle-authority-store",
+				"isDefault": false
+			},
+			{
+				"name": "useVehicleAuthority",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\vehicle-authority-store.tsx",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"API_BASE_URL": [
+			{
+				"name": "API_BASE_URL",
+				"module": "@/lib/vehicle-authority-store",
+				"isDefault": false
+			}
+		],
+		"List": [
+			{
+				"name": "List",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"LogOut": [
+			{
+				"name": "LogOut",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"redirect": [
+			{
+				"name": "redirect",
+				"module": "@tanstack/react-router",
+				"isDefault": false
+			}
+		],
+		"lazy": [
+			{
+				"name": "lazy",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"Suspense": [
+			{
+				"name": "Suspense",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"CheckCircle2": [
+			{
+				"name": "CheckCircle2",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"X": [
+			{
+				"name": "X",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Building2": [
+			{
+				"name": "Building2",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Navigation": [
+			{
+				"name": "Navigation",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Maximize2": [
+			{
+				"name": "Maximize2",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Minimize2": [
+			{
+				"name": "Minimize2",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Compass": [
+			{
+				"name": "Compass",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"toast": [
+			{
+				"name": "toast",
+				"module": "sonner",
+				"isDefault": false
+			}
+		],
+		"DriverShell": [
+			{
+				"name": "DriverShell",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\driver\\DriverShell.tsx",
+				"type": "function",
+				"isDefault": false
+			},
+			{
+				"name": "DriverShell",
+				"module": "@/components/driver/DriverShell",
+				"isDefault": false
+			}
+		],
+		"useRef": [
+			{
+				"name": "useRef",
+				"module": "react",
+				"isDefault": false
+			}
+		],
+		"Phone": [
+			{
+				"name": "Phone",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Mail": [
+			{
+				"name": "Mail",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Save": [
+			{
+				"name": "Save",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Activity": [
+			{
+				"name": "Activity",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Award": [
+			{
+				"name": "Award",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"useDriver": [
+			{
+				"name": "useDriver",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-store.tsx",
+				"type": "function",
+				"isDefault": false
+			},
+			{
+				"name": "useDriver",
+				"module": "@/lib/driver-store",
+				"isDefault": false
+			}
+		],
+		"SHIFT_HISTORY": [
+			{
+				"name": "SHIFT_HISTORY",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "const",
+				"isDefault": false
+			},
+			{
+				"name": "SHIFT_HISTORY",
+				"module": "@/lib/driver-data",
+				"isDefault": false
+			}
+		],
+		"FileText": [
+			{
+				"name": "FileText",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Calendar": [
+			{
+				"name": "Calendar",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Image as ImageIcon": [
+			{
+				"name": "Image as ImageIcon",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Route as RouteIcon": [
+			{
+				"name": "Route as RouteIcon",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Zap": [
+			{
+				"name": "Zap",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ArrowRight": [
+			{
+				"name": "ArrowRight",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"BINS": [
+			{
+				"name": "BINS",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "const",
+				"isDefault": false
+			},
+			{
+				"name": "BINS",
+				"module": "@/lib/driver-data",
+				"isDefault": false
+			}
+		],
+		"VEHICLE": [
+			{
+				"name": "VEHICLE",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "const",
+				"isDefault": false
+			},
+			{
+				"name": "VEHICLE",
+				"module": "@/lib/driver-data",
+				"isDefault": false
+			}
+		],
+		"Camera": [
+			{
+				"name": "Camera",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Search": [
+			{
+				"name": "Search",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"AuthorityShell": [
+			{
+				"name": "AuthorityShell",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\authority\\AuthorityShell.tsx",
+				"type": "function",
+				"isDefault": false
+			},
+			{
+				"name": "AuthorityShell",
+				"module": "@/components/authority/AuthorityShell",
+				"isDefault": false
+			}
+		],
+		"Home": [
+			{
+				"name": "Home",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"QRCode": [
+			{
+				"name": "QRCode",
+				"module": "qrcode",
+				"isDefault": true
+			}
+		],
+		"TrendingUp": [
+			{
+				"name": "TrendingUp",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"getRouter": [
+			{
+				"name": "getRouter",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\router.tsx",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"createRouter": [
+			{
+				"name": "createRouter",
+				"module": "@tanstack/react-router",
+				"isDefault": false
+			}
+		],
+		"VehicleAuthorityProvider": [
+			{
+				"name": "VehicleAuthorityProvider",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\vehicle-authority-store.tsx",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"cn": [
+			{
+				"name": "cn",
+				"module": "@/lib/utils",
+				"isDefault": false
+			},
+			{
+				"name": "cn",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\utils.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"clsx": [
+			{
+				"name": "clsx",
+				"module": "clsx",
+				"isDefault": false
+			}
+		],
+		"type ClassValue": [
+			{
+				"name": "type ClassValue",
+				"module": "clsx",
+				"isDefault": false
+			}
+		],
+		"twMerge": [
+			{
+				"name": "twMerge",
+				"module": "tailwind-merge",
+				"isDefault": false
+			}
+		],
+		"reportLovableError": [
+			{
+				"name": "reportLovableError",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\lovable-error-reporting.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"renderErrorPage": [
+			{
+				"name": "renderErrorPage",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\error-page.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"describeError": [
+			{
+				"name": "describeError",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\error-capture.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"consumeLastCapturedError": [
+			{
+				"name": "consumeLastCapturedError",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\error-capture.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"DriverProvider": [
+			{
+				"name": "DriverProvider",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-store.tsx",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"Priority": [
+			{
+				"name": "Priority",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"StopStatus": [
+			{
+				"name": "StopStatus",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"Bin": [
+			{
+				"name": "Bin",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"DEPOT": [
+			{
+				"name": "DEPOT",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"DRIVER": [
+			{
+				"name": "DRIVER",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\lib\\driver-data.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"useIsMobile": [
+			{
+				"name": "useIsMobile",
+				"module": "@/hooks/use-mobile",
+				"isDefault": false
+			},
+			{
+				"name": "useIsMobile",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\hooks\\use-mobile.tsx",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"React": [
+			{
+				"name": "React",
+				"module": "react",
+				"isDefault": true,
+				"asDefinition": "* as React"
+			}
+		],
+		"TooltipPrimitive": [
+			{
+				"name": "TooltipPrimitive",
+				"module": "@radix-ui/react-tooltip",
+				"isDefault": true,
+				"asDefinition": "* as TooltipPrimitive"
+			}
+		],
+		"TogglePrimitive": [
+			{
+				"name": "TogglePrimitive",
+				"module": "@radix-ui/react-toggle",
+				"isDefault": true,
+				"asDefinition": "* as TogglePrimitive"
+			}
+		],
+		"cva": [
+			{
+				"name": "cva",
+				"module": "class-variance-authority",
+				"isDefault": false
+			}
+		],
+		"type VariantProps": [
+			{
+				"name": "type VariantProps",
+				"module": "class-variance-authority",
+				"isDefault": false
+			}
+		],
+		"ToggleGroupPrimitive": [
+			{
+				"name": "ToggleGroupPrimitive",
+				"module": "@radix-ui/react-toggle-group",
+				"isDefault": true,
+				"asDefinition": "* as ToggleGroupPrimitive"
+			}
+		],
+		"toggleVariants": [
+			{
+				"name": "toggleVariants",
+				"module": "@/components/ui/toggle",
+				"isDefault": false
+			}
+		],
+		"TabsPrimitive": [
+			{
+				"name": "TabsPrimitive",
+				"module": "@radix-ui/react-tabs",
+				"isDefault": true,
+				"asDefinition": "* as TabsPrimitive"
+			}
+		],
+		"SwitchPrimitives": [
+			{
+				"name": "SwitchPrimitives",
+				"module": "@radix-ui/react-switch",
+				"isDefault": true,
+				"asDefinition": "* as SwitchPrimitives"
+			}
+		],
+		"Toaster as Sonner": [
+			{
+				"name": "Toaster as Sonner",
+				"module": "sonner",
+				"isDefault": false
+			}
+		],
+		"SliderPrimitive": [
+			{
+				"name": "SliderPrimitive",
+				"module": "@radix-ui/react-slider",
+				"isDefault": true,
+				"asDefinition": "* as SliderPrimitive"
+			}
+		],
+		"Slot": [
+			{
+				"name": "Slot",
+				"module": "@radix-ui/react-slot",
+				"isDefault": false
+			}
+		],
+		"PanelLeft": [
+			{
+				"name": "PanelLeft",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Button": [
+			{
+				"name": "Button",
+				"module": "@/components/ui/button",
+				"isDefault": false
+			}
+		],
+		"Input": [
+			{
+				"name": "Input",
+				"module": "@/components/ui/input",
+				"isDefault": false
+			}
+		],
+		"Separator": [
+			{
+				"name": "Separator",
+				"module": "react-resizable-panels",
+				"isDefault": false
+			},
+			{
+				"name": "Separator",
+				"module": "@/components/ui/separator",
+				"isDefault": false
+			}
+		],
+		"Skeleton": [
+			{
+				"name": "Skeleton",
+				"module": "@/components/ui/skeleton",
+				"isDefault": false
+			}
+		],
+		"Tooltip": [
+			{
+				"name": "Tooltip",
+				"module": "react-leaflet",
+				"isDefault": false
+			},
+			{
+				"name": "Tooltip",
+				"module": "@/components/ui/tooltip",
+				"isDefault": false
+			}
+		],
+		"TooltipContent": [
+			{
+				"name": "TooltipContent",
+				"module": "@/components/ui/tooltip",
+				"isDefault": false
+			}
+		],
+		"TooltipProvider": [
+			{
+				"name": "TooltipProvider",
+				"module": "@/components/ui/tooltip",
+				"isDefault": false
+			}
+		],
+		"TooltipTrigger": [
+			{
+				"name": "TooltipTrigger",
+				"module": "@/components/ui/tooltip",
+				"isDefault": false
+			}
+		],
+		"SheetPrimitive": [
+			{
+				"name": "SheetPrimitive",
+				"module": "@radix-ui/react-dialog",
+				"isDefault": true,
+				"asDefinition": "* as SheetPrimitive"
+			}
+		],
+		"SeparatorPrimitive": [
+			{
+				"name": "SeparatorPrimitive",
+				"module": "@radix-ui/react-separator",
+				"isDefault": true,
+				"asDefinition": "* as SeparatorPrimitive"
+			}
+		],
+		"SelectPrimitive": [
+			{
+				"name": "SelectPrimitive",
+				"module": "@radix-ui/react-select",
+				"isDefault": true,
+				"asDefinition": "* as SelectPrimitive"
+			}
+		],
+		"ChevronDown": [
+			{
+				"name": "ChevronDown",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ChevronUp": [
+			{
+				"name": "ChevronUp",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ScrollAreaPrimitive": [
+			{
+				"name": "ScrollAreaPrimitive",
+				"module": "@radix-ui/react-scroll-area",
+				"isDefault": true,
+				"asDefinition": "* as ScrollAreaPrimitive"
+			}
+		],
+		"GripVertical": [
+			{
+				"name": "GripVertical",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"Group": [
+			{
+				"name": "Group",
+				"module": "react-resizable-panels",
+				"isDefault": false
+			}
+		],
+		"Panel": [
+			{
+				"name": "Panel",
+				"module": "react-resizable-panels",
+				"isDefault": false
+			}
+		],
+		"RadioGroupPrimitive": [
+			{
+				"name": "RadioGroupPrimitive",
+				"module": "@radix-ui/react-radio-group",
+				"isDefault": true,
+				"asDefinition": "* as RadioGroupPrimitive"
+			}
+		],
+		"Circle": [
+			{
+				"name": "Circle",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ProgressPrimitive": [
+			{
+				"name": "ProgressPrimitive",
+				"module": "@radix-ui/react-progress",
+				"isDefault": true,
+				"asDefinition": "* as ProgressPrimitive"
+			}
+		],
+		"PopoverPrimitive": [
+			{
+				"name": "PopoverPrimitive",
+				"module": "@radix-ui/react-popover",
+				"isDefault": true,
+				"asDefinition": "* as PopoverPrimitive"
+			}
+		],
+		"ChevronLeft": [
+			{
+				"name": "ChevronLeft",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ChevronRight": [
+			{
+				"name": "ChevronRight",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"MoreHorizontal": [
+			{
+				"name": "MoreHorizontal",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ButtonProps": [
+			{
+				"name": "ButtonProps",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\ui\\button.tsx",
+				"type": "interface",
+				"isDefault": false
+			},
+			{
+				"name": "ButtonProps",
+				"module": "@/components/ui/button",
+				"isDefault": false
+			}
+		],
+		"buttonVariants": [
+			{
+				"name": "buttonVariants",
+				"module": "@/components/ui/button",
+				"isDefault": false
+			}
+		],
+		"NavigationMenuPrimitive": [
+			{
+				"name": "NavigationMenuPrimitive",
+				"module": "@radix-ui/react-navigation-menu",
+				"isDefault": true,
+				"asDefinition": "* as NavigationMenuPrimitive"
+			}
+		],
+		"MenubarPrimitive": [
+			{
+				"name": "MenubarPrimitive",
+				"module": "@radix-ui/react-menubar",
+				"isDefault": true,
+				"asDefinition": "* as MenubarPrimitive"
+			}
+		],
+		"LabelPrimitive": [
+			{
+				"name": "LabelPrimitive",
+				"module": "@radix-ui/react-label",
+				"isDefault": true,
+				"asDefinition": "* as LabelPrimitive"
+			}
+		],
+		"OTPInput": [
+			{
+				"name": "OTPInput",
+				"module": "input-otp",
+				"isDefault": false
+			}
+		],
+		"OTPInputContext": [
+			{
+				"name": "OTPInputContext",
+				"module": "input-otp",
+				"isDefault": false
+			}
+		],
+		"Minus": [
+			{
+				"name": "Minus",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"HoverCardPrimitive": [
+			{
+				"name": "HoverCardPrimitive",
+				"module": "@radix-ui/react-hover-card",
+				"isDefault": true,
+				"asDefinition": "* as HoverCardPrimitive"
+			}
+		],
+		"Label": [
+			{
+				"name": "Label",
+				"module": "@/components/ui/label",
+				"isDefault": false
+			}
+		],
+		"DropdownMenuPrimitive": [
+			{
+				"name": "DropdownMenuPrimitive",
+				"module": "@radix-ui/react-dropdown-menu",
+				"isDefault": true,
+				"asDefinition": "* as DropdownMenuPrimitive"
+			}
+		],
+		"Drawer as DrawerPrimitive": [
+			{
+				"name": "Drawer as DrawerPrimitive",
+				"module": "vaul",
+				"isDefault": false
+			}
+		],
+		"DialogPrimitive": [
+			{
+				"name": "DialogPrimitive",
+				"module": "@radix-ui/react-dialog",
+				"isDefault": true,
+				"asDefinition": "* as DialogPrimitive"
+			}
+		],
+		"ContextMenuPrimitive": [
+			{
+				"name": "ContextMenuPrimitive",
+				"module": "@radix-ui/react-context-menu",
+				"isDefault": true,
+				"asDefinition": "* as ContextMenuPrimitive"
+			}
+		],
+		"type DialogProps": [
+			{
+				"name": "type DialogProps",
+				"module": "@radix-ui/react-dialog",
+				"isDefault": false
+			}
+		],
+		"Command as CommandPrimitive": [
+			{
+				"name": "Command as CommandPrimitive",
+				"module": "cmdk",
+				"isDefault": false
+			}
+		],
+		"Dialog": [
+			{
+				"name": "Dialog",
+				"module": "@/components/ui/dialog",
+				"isDefault": false
+			}
+		],
+		"DialogContent": [
+			{
+				"name": "DialogContent",
+				"module": "@/components/ui/dialog",
+				"isDefault": false
+			}
+		],
+		"CollapsiblePrimitive": [
+			{
+				"name": "CollapsiblePrimitive",
+				"module": "@radix-ui/react-collapsible",
+				"isDefault": true,
+				"asDefinition": "* as CollapsiblePrimitive"
+			}
+		],
+		"CheckboxPrimitive": [
+			{
+				"name": "CheckboxPrimitive",
+				"module": "@radix-ui/react-checkbox",
+				"isDefault": true,
+				"asDefinition": "* as CheckboxPrimitive"
+			}
+		],
+		"ChartConfig": [
+			{
+				"name": "ChartConfig",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\ui\\chart.tsx",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"RechartsPrimitive": [
+			{
+				"name": "RechartsPrimitive",
+				"module": "recharts",
+				"isDefault": true,
+				"asDefinition": "* as RechartsPrimitive"
+			}
+		],
+		"useEmblaCarousel": [
+			{
+				"name": "useEmblaCarousel",
+				"module": "embla-carousel-react",
+				"isDefault": true
+			}
+		],
+		"{ type UseEmblaCarouselType": [
+			{
+				"name": "{ type UseEmblaCarouselType",
+				"module": "embla-carousel-react",
+				"isDefault": true
+			}
+		],
+		"ChevronDownIcon": [
+			{
+				"name": "ChevronDownIcon",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ChevronLeftIcon": [
+			{
+				"name": "ChevronLeftIcon",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"ChevronRightIcon": [
+			{
+				"name": "ChevronRightIcon",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"DayButton": [
+			{
+				"name": "DayButton",
+				"module": "react-day-picker",
+				"isDefault": false
+			}
+		],
+		"DayPicker": [
+			{
+				"name": "DayPicker",
+				"module": "react-day-picker",
+				"isDefault": false
+			}
+		],
+		"getDefaultClassNames": [
+			{
+				"name": "getDefaultClassNames",
+				"module": "react-day-picker",
+				"isDefault": false
+			}
+		],
+		"BadgeProps": [
+			{
+				"name": "BadgeProps",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\ui\\badge.tsx",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AvatarPrimitive": [
+			{
+				"name": "AvatarPrimitive",
+				"module": "@radix-ui/react-avatar",
+				"isDefault": true,
+				"asDefinition": "* as AvatarPrimitive"
+			}
+		],
+		"AspectRatioPrimitive": [
+			{
+				"name": "AspectRatioPrimitive",
+				"module": "@radix-ui/react-aspect-ratio",
+				"isDefault": true,
+				"asDefinition": "* as AspectRatioPrimitive"
+			}
+		],
+		"AlertDialogPrimitive": [
+			{
+				"name": "AlertDialogPrimitive",
+				"module": "@radix-ui/react-alert-dialog",
+				"isDefault": true,
+				"asDefinition": "* as AlertDialogPrimitive"
+			}
+		],
+		"AccordionPrimitive": [
+			{
+				"name": "AccordionPrimitive",
+				"module": "@radix-ui/react-accordion",
+				"isDefault": true,
+				"asDefinition": "* as AccordionPrimitive"
+			}
+		],
+		"version": [
+			{
+				"name": "version",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"Command": [
+			{
+				"name": "Command",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextLine": [
+			{
+				"name": "TextLine",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextDocument": [
+			{
+				"name": "TextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Position": [
+			{
+				"name": "Position",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Range": [
+			{
+				"name": "Range",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Selection": [
+			{
+				"name": "Selection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TextEditorSelectionChangeKind": [
+			{
+				"name": "TextEditorSelectionChangeKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextEditorSelectionChangeEvent": [
+			{
+				"name": "TextEditorSelectionChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorVisibleRangesChangeEvent": [
+			{
+				"name": "TextEditorVisibleRangesChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorOptionsChangeEvent": [
+			{
+				"name": "TextEditorOptionsChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorViewColumnChangeEvent": [
+			{
+				"name": "TextEditorViewColumnChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorCursorStyle": [
+			{
+				"name": "TextEditorCursorStyle",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextEditorLineNumbersStyle": [
+			{
+				"name": "TextEditorLineNumbersStyle",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextEditorOptions": [
+			{
+				"name": "TextEditorOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorDecorationType": [
+			{
+				"name": "TextEditorDecorationType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditorRevealType": [
+			{
+				"name": "TextEditorRevealType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"OverviewRulerLane": [
+			{
+				"name": "OverviewRulerLane",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DecorationRangeBehavior": [
+			{
+				"name": "DecorationRangeBehavior",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextDocumentShowOptions": [
+			{
+				"name": "TextDocumentShowOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookEditorSelectionChangeEvent": [
+			{
+				"name": "NotebookEditorSelectionChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookEditorVisibleRangesChangeEvent": [
+			{
+				"name": "NotebookEditorVisibleRangesChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentShowOptions": [
+			{
+				"name": "NotebookDocumentShowOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ThemeColor": [
+			{
+				"name": "ThemeColor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ThemeIcon": [
+			{
+				"name": "ThemeIcon",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"IconPath": [
+			{
+				"name": "IconPath",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"ThemableDecorationRenderOptions": [
+			{
+				"name": "ThemableDecorationRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ThemableDecorationAttachmentRenderOptions": [
+			{
+				"name": "ThemableDecorationAttachmentRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DecorationRenderOptions": [
+			{
+				"name": "DecorationRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DecorationOptions": [
+			{
+				"name": "DecorationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ThemableDecorationInstanceRenderOptions": [
+			{
+				"name": "ThemableDecorationInstanceRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DecorationInstanceRenderOptions": [
+			{
+				"name": "DecorationInstanceRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEditor": [
+			{
+				"name": "TextEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EndOfLine": [
+			{
+				"name": "EndOfLine",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextEditorEdit": [
+			{
+				"name": "TextEditorEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Uri": [
+			{
+				"name": "Uri",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CancellationToken": [
+			{
+				"name": "CancellationToken",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CancellationTokenSource": [
+			{
+				"name": "CancellationTokenSource",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CancellationError": [
+			{
+				"name": "CancellationError",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Disposable": [
+			{
+				"name": "Disposable",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Event": [
+			{
+				"name": "Event",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EventEmitter": [
+			{
+				"name": "EventEmitter",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileSystemWatcher": [
+			{
+				"name": "FileSystemWatcher",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextDocumentContentProvider": [
+			{
+				"name": "TextDocumentContentProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickPickItemKind": [
+			{
+				"name": "QuickPickItemKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"QuickPickItem": [
+			{
+				"name": "QuickPickItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickPickOptions": [
+			{
+				"name": "QuickPickOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceFolderPickOptions": [
+			{
+				"name": "WorkspaceFolderPickOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"OpenDialogOptions": [
+			{
+				"name": "OpenDialogOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SaveDialogOptions": [
+			{
+				"name": "SaveDialogOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MessageItem": [
+			{
+				"name": "MessageItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MessageOptions": [
+			{
+				"name": "MessageOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InputBoxValidationSeverity": [
+			{
+				"name": "InputBoxValidationSeverity",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"InputBoxValidationMessage": [
+			{
+				"name": "InputBoxValidationMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InputBoxOptions": [
+			{
+				"name": "InputBoxOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"RelativePattern": [
+			{
+				"name": "RelativePattern",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"GlobPattern": [
+			{
+				"name": "GlobPattern",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"DocumentFilter": [
+			{
+				"name": "DocumentFilter",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentSelector": [
+			{
+				"name": "DocumentSelector",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"ProviderResult": [
+			{
+				"name": "ProviderResult",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"CodeActionKind": [
+			{
+				"name": "CodeActionKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CodeActionTriggerKind": [
+			{
+				"name": "CodeActionTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CodeActionContext": [
+			{
+				"name": "CodeActionContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CodeAction": [
+			{
+				"name": "CodeAction",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CodeActionProvider": [
+			{
+				"name": "CodeActionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CodeActionProviderMetadata": [
+			{
+				"name": "CodeActionProviderMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CodeLens": [
+			{
+				"name": "CodeLens",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CodeLensProvider": [
+			{
+				"name": "CodeLensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DefinitionLink": [
+			{
+				"name": "DefinitionLink",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"Definition": [
+			{
+				"name": "Definition",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"DefinitionProvider": [
+			{
+				"name": "DefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ImplementationProvider": [
+			{
+				"name": "ImplementationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TypeDefinitionProvider": [
+			{
+				"name": "TypeDefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Declaration": [
+			{
+				"name": "Declaration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"DeclarationProvider": [
+			{
+				"name": "DeclarationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MarkdownString": [
+			{
+				"name": "MarkdownString",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"MarkedString": [
+			{
+				"name": "MarkedString",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"Hover": [
+			{
+				"name": "Hover",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HoverProvider": [
+			{
+				"name": "HoverProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EvaluatableExpression": [
+			{
+				"name": "EvaluatableExpression",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"EvaluatableExpressionProvider": [
+			{
+				"name": "EvaluatableExpressionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineValueText": [
+			{
+				"name": "InlineValueText",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlineValueVariableLookup": [
+			{
+				"name": "InlineValueVariableLookup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlineValueEvaluatableExpression": [
+			{
+				"name": "InlineValueEvaluatableExpression",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlineValue": [
+			{
+				"name": "InlineValue",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"InlineValueContext": [
+			{
+				"name": "InlineValueContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineValuesProvider": [
+			{
+				"name": "InlineValuesProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentHighlightKind": [
+			{
+				"name": "DocumentHighlightKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DocumentHighlight": [
+			{
+				"name": "DocumentHighlight",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentHighlightProvider": [
+			{
+				"name": "DocumentHighlightProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SymbolKind": [
+			{
+				"name": "SymbolKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"SymbolTag": [
+			{
+				"name": "SymbolTag",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"SymbolInformation": [
+			{
+				"name": "SymbolInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentSymbol": [
+			{
+				"name": "DocumentSymbol",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentSymbolProvider": [
+			{
+				"name": "DocumentSymbolProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentSymbolProviderMetadata": [
+			{
+				"name": "DocumentSymbolProviderMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceSymbolProvider": [
+			{
+				"name": "WorkspaceSymbolProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ReferenceContext": [
+			{
+				"name": "ReferenceContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ReferenceProvider": [
+			{
+				"name": "ReferenceProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextEdit": [
+			{
+				"name": "TextEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SnippetTextEdit": [
+			{
+				"name": "SnippetTextEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookEdit": [
+			{
+				"name": "NotebookEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"WorkspaceEditEntryMetadata": [
+			{
+				"name": "WorkspaceEditEntryMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceEditMetadata": [
+			{
+				"name": "WorkspaceEditMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceEdit": [
+			{
+				"name": "WorkspaceEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SnippetString": [
+			{
+				"name": "SnippetString",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"RenameProvider": [
+			{
+				"name": "RenameProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SemanticTokensLegend": [
+			{
+				"name": "SemanticTokensLegend",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SemanticTokensBuilder": [
+			{
+				"name": "SemanticTokensBuilder",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SemanticTokens": [
+			{
+				"name": "SemanticTokens",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SemanticTokensEdits": [
+			{
+				"name": "SemanticTokensEdits",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SemanticTokensEdit": [
+			{
+				"name": "SemanticTokensEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentSemanticTokensProvider": [
+			{
+				"name": "DocumentSemanticTokensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentRangeSemanticTokensProvider": [
+			{
+				"name": "DocumentRangeSemanticTokensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FormattingOptions": [
+			{
+				"name": "FormattingOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentFormattingEditProvider": [
+			{
+				"name": "DocumentFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentRangeFormattingEditProvider": [
+			{
+				"name": "DocumentRangeFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"OnTypeFormattingEditProvider": [
+			{
+				"name": "OnTypeFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ParameterInformation": [
+			{
+				"name": "ParameterInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SignatureInformation": [
+			{
+				"name": "SignatureInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SignatureHelp": [
+			{
+				"name": "SignatureHelp",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SignatureHelpTriggerKind": [
+			{
+				"name": "SignatureHelpTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"SignatureHelpContext": [
+			{
+				"name": "SignatureHelpContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SignatureHelpProvider": [
+			{
+				"name": "SignatureHelpProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SignatureHelpProviderMetadata": [
+			{
+				"name": "SignatureHelpProviderMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CompletionItemLabel": [
+			{
+				"name": "CompletionItemLabel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CompletionItemKind": [
+			{
+				"name": "CompletionItemKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CompletionItemTag": [
+			{
+				"name": "CompletionItemTag",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CompletionItem": [
+			{
+				"name": "CompletionItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CompletionList": [
+			{
+				"name": "CompletionList",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CompletionTriggerKind": [
+			{
+				"name": "CompletionTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CompletionContext": [
+			{
+				"name": "CompletionContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CompletionItemProvider": [
+			{
+				"name": "CompletionItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineCompletionItemProvider": [
+			{
+				"name": "InlineCompletionItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineCompletionList": [
+			{
+				"name": "InlineCompletionList",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlineCompletionContext": [
+			{
+				"name": "InlineCompletionContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SelectedCompletionInfo": [
+			{
+				"name": "SelectedCompletionInfo",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"antigravityAdditionalSelectedCompletionInfo": [
+			{
+				"name": "antigravityAdditionalSelectedCompletionInfo",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineCompletionTriggerKind": [
+			{
+				"name": "InlineCompletionTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"InlineCompletionItem": [
+			{
+				"name": "InlineCompletionItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentLink": [
+			{
+				"name": "DocumentLink",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentLinkProvider": [
+			{
+				"name": "DocumentLinkProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Color": [
+			{
+				"name": "Color",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ColorInformation": [
+			{
+				"name": "ColorInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ColorPresentation": [
+			{
+				"name": "ColorPresentation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentColorProvider": [
+			{
+				"name": "DocumentColorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlayHintKind": [
+			{
+				"name": "InlayHintKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"InlayHintLabelPart": [
+			{
+				"name": "InlayHintLabelPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlayHint": [
+			{
+				"name": "InlayHint",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"InlayHintsProvider": [
+			{
+				"name": "InlayHintsProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FoldingRange": [
+			{
+				"name": "FoldingRange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FoldingRangeKind": [
+			{
+				"name": "FoldingRangeKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"FoldingContext": [
+			{
+				"name": "FoldingContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FoldingRangeProvider": [
+			{
+				"name": "FoldingRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SelectionRange": [
+			{
+				"name": "SelectionRange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SelectionRangeProvider": [
+			{
+				"name": "SelectionRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CallHierarchyItem": [
+			{
+				"name": "CallHierarchyItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CallHierarchyIncomingCall": [
+			{
+				"name": "CallHierarchyIncomingCall",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CallHierarchyOutgoingCall": [
+			{
+				"name": "CallHierarchyOutgoingCall",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CallHierarchyProvider": [
+			{
+				"name": "CallHierarchyProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TypeHierarchyItem": [
+			{
+				"name": "TypeHierarchyItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TypeHierarchyProvider": [
+			{
+				"name": "TypeHierarchyProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LinkedEditingRanges": [
+			{
+				"name": "LinkedEditingRanges",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LinkedEditingRangeProvider": [
+			{
+				"name": "LinkedEditingRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentDropOrPasteEditKind": [
+			{
+				"name": "DocumentDropOrPasteEditKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentDropEdit": [
+			{
+				"name": "DocumentDropEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentDropEditProvider": [
+			{
+				"name": "DocumentDropEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentDropEditProviderMetadata": [
+			{
+				"name": "DocumentDropEditProviderMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentPasteTriggerKind": [
+			{
+				"name": "DocumentPasteTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DocumentPasteEditContext": [
+			{
+				"name": "DocumentPasteEditContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentPasteEditProvider": [
+			{
+				"name": "DocumentPasteEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DocumentPasteEdit": [
+			{
+				"name": "DocumentPasteEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DocumentPasteProviderMetadata": [
+			{
+				"name": "DocumentPasteProviderMetadata",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CharacterPair": [
+			{
+				"name": "CharacterPair",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"CommentRule": [
+			{
+				"name": "CommentRule",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"IndentationRule": [
+			{
+				"name": "IndentationRule",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"IndentAction": [
+			{
+				"name": "IndentAction",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"EnterAction": [
+			{
+				"name": "EnterAction",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"OnEnterRule": [
+			{
+				"name": "OnEnterRule",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SyntaxTokenType": [
+			{
+				"name": "SyntaxTokenType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"AutoClosingPair": [
+			{
+				"name": "AutoClosingPair",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageConfiguration": [
+			{
+				"name": "LanguageConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ConfigurationTarget": [
+			{
+				"name": "ConfigurationTarget",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"WorkspaceConfiguration": [
+			{
+				"name": "WorkspaceConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Location": [
+			{
+				"name": "Location",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LocationLink": [
+			{
+				"name": "LocationLink",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DiagnosticChangeEvent": [
+			{
+				"name": "DiagnosticChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DiagnosticSeverity": [
+			{
+				"name": "DiagnosticSeverity",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DiagnosticRelatedInformation": [
+			{
+				"name": "DiagnosticRelatedInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DiagnosticTag": [
+			{
+				"name": "DiagnosticTag",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"Diagnostic": [
+			{
+				"name": "Diagnostic",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DiagnosticWithFixes": [
+			{
+				"name": "DiagnosticWithFixes",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DiagnosticCollection": [
+			{
+				"name": "DiagnosticCollection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageStatusSeverity": [
+			{
+				"name": "LanguageStatusSeverity",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"LanguageStatusItem": [
+			{
+				"name": "LanguageStatusItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ViewColumn": [
+			{
+				"name": "ViewColumn",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"OutputChannel": [
+			{
+				"name": "OutputChannel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LogOutputChannel": [
+			{
+				"name": "LogOutputChannel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AccessibilityInformation": [
+			{
+				"name": "AccessibilityInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"StatusBarAlignment": [
+			{
+				"name": "StatusBarAlignment",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"StatusBarItem": [
+			{
+				"name": "StatusBarItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Progress": [
+			{
+				"name": "Progress",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Terminal": [
+			{
+				"name": "Terminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalLocation": [
+			{
+				"name": "TerminalLocation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TerminalEditorLocationOptions": [
+			{
+				"name": "TerminalEditorLocationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalSplitLocationOptions": [
+			{
+				"name": "TerminalSplitLocationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalState": [
+			{
+				"name": "TerminalState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellIntegration": [
+			{
+				"name": "TerminalShellIntegration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellExecution": [
+			{
+				"name": "TerminalShellExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellExecutionCommandLine": [
+			{
+				"name": "TerminalShellExecutionCommandLine",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellExecutionCommandLineConfidence": [
+			{
+				"name": "TerminalShellExecutionCommandLineConfidence",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TerminalShellIntegrationChangeEvent": [
+			{
+				"name": "TerminalShellIntegrationChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellExecutionStartEvent": [
+			{
+				"name": "TerminalShellExecutionStartEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalShellExecutionEndEvent": [
+			{
+				"name": "TerminalShellExecutionEndEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalLinkContext": [
+			{
+				"name": "TerminalLinkContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalLinkProvider": [
+			{
+				"name": "TerminalLinkProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalLink": [
+			{
+				"name": "TerminalLink",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TerminalProfileProvider": [
+			{
+				"name": "TerminalProfileProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalProfile": [
+			{
+				"name": "TerminalProfile",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileDecoration": [
+			{
+				"name": "FileDecoration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileDecorationProvider": [
+			{
+				"name": "FileDecorationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ExtensionKind": [
+			{
+				"name": "ExtensionKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"Extension": [
+			{
+				"name": "Extension",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ExtensionMode": [
+			{
+				"name": "ExtensionMode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ExtensionContext": [
+			{
+				"name": "ExtensionContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Memento": [
+			{
+				"name": "Memento",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SecretStorageChangeEvent": [
+			{
+				"name": "SecretStorageChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SecretStorage": [
+			{
+				"name": "SecretStorage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ColorThemeKind": [
+			{
+				"name": "ColorThemeKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ColorTheme": [
+			{
+				"name": "ColorTheme",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskRevealKind": [
+			{
+				"name": "TaskRevealKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TaskPanelKind": [
+			{
+				"name": "TaskPanelKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TaskPresentationOptions": [
+			{
+				"name": "TaskPresentationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskGroup": [
+			{
+				"name": "TaskGroup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TaskDefinition": [
+			{
+				"name": "TaskDefinition",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ProcessExecutionOptions": [
+			{
+				"name": "ProcessExecutionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ProcessExecution": [
+			{
+				"name": "ProcessExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ShellQuotingOptions": [
+			{
+				"name": "ShellQuotingOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ShellExecutionOptions": [
+			{
+				"name": "ShellExecutionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ShellQuoting": [
+			{
+				"name": "ShellQuoting",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ShellQuotedString": [
+			{
+				"name": "ShellQuotedString",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ShellExecution": [
+			{
+				"name": "ShellExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CustomExecution": [
+			{
+				"name": "CustomExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TaskScope": [
+			{
+				"name": "TaskScope",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"RunOptions": [
+			{
+				"name": "RunOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Task": [
+			{
+				"name": "Task",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TaskProvider": [
+			{
+				"name": "TaskProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskExecution": [
+			{
+				"name": "TaskExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskStartEvent": [
+			{
+				"name": "TaskStartEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskEndEvent": [
+			{
+				"name": "TaskEndEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskProcessStartEvent": [
+			{
+				"name": "TaskProcessStartEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskProcessEndEvent": [
+			{
+				"name": "TaskProcessEndEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TaskFilter": [
+			{
+				"name": "TaskFilter",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"namespace": [
+			{
+				"name": "namespace",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"isDefault": false
+			}
+		],
+		"registerTaskProvider": [
+			{
+				"name": "registerTaskProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"fetchTasks": [
+			{
+				"name": "fetchTasks",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"executeTask": [
+			{
+				"name": "executeTask",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"taskExecutions": [
+			{
+				"name": "taskExecutions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidStartTask": [
+			{
+				"name": "onDidStartTask",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidEndTask": [
+			{
+				"name": "onDidEndTask",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidStartTaskProcess": [
+			{
+				"name": "onDidStartTaskProcess",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidEndTaskProcess": [
+			{
+				"name": "onDidEndTaskProcess",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"FileType": [
+			{
+				"name": "FileType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"FilePermission": [
+			{
+				"name": "FilePermission",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"FileStat": [
+			{
+				"name": "FileStat",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileSystemError": [
+			{
+				"name": "FileSystemError",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileChangeType": [
+			{
+				"name": "FileChangeType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"FileChangeEvent": [
+			{
+				"name": "FileChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileSystemProvider": [
+			{
+				"name": "FileSystemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileSystem": [
+			{
+				"name": "FileSystem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewPortMapping": [
+			{
+				"name": "WebviewPortMapping",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewOptions": [
+			{
+				"name": "WebviewOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Webview": [
+			{
+				"name": "Webview",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewPanelOptions": [
+			{
+				"name": "WebviewPanelOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewPanel": [
+			{
+				"name": "WebviewPanel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewPanelOnDidChangeViewStateEvent": [
+			{
+				"name": "WebviewPanelOnDidChangeViewStateEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewPanelSerializer": [
+			{
+				"name": "WebviewPanelSerializer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewView": [
+			{
+				"name": "WebviewView",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewViewResolveContext": [
+			{
+				"name": "WebviewViewResolveContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WebviewViewProvider": [
+			{
+				"name": "WebviewViewProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomTextEditorProvider": [
+			{
+				"name": "CustomTextEditorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocument": [
+			{
+				"name": "CustomDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocumentEditEvent": [
+			{
+				"name": "CustomDocumentEditEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocumentContentChangeEvent": [
+			{
+				"name": "CustomDocumentContentChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocumentBackup": [
+			{
+				"name": "CustomDocumentBackup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocumentBackupContext": [
+			{
+				"name": "CustomDocumentBackupContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomDocumentOpenContext": [
+			{
+				"name": "CustomDocumentOpenContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomReadonlyEditorProvider": [
+			{
+				"name": "CustomReadonlyEditorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CustomEditorProvider": [
+			{
+				"name": "CustomEditorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Clipboard": [
+			{
+				"name": "Clipboard",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"UIKind": [
+			{
+				"name": "UIKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"LogLevel": [
+			{
+				"name": "LogLevel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"appNameShort": [
+			{
+				"name": "appNameShort",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"appName": [
+			{
+				"name": "appName",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"appRoot": [
+			{
+				"name": "appRoot",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"appHost": [
+			{
+				"name": "appHost",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"uriScheme": [
+			{
+				"name": "uriScheme",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"language": [
+			{
+				"name": "language",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"clipboard": [
+			{
+				"name": "clipboard",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"machineId": [
+			{
+				"name": "machineId",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"sessionId": [
+			{
+				"name": "sessionId",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"isNewAppInstall": [
+			{
+				"name": "isNewAppInstall",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"isTelemetryEnabled": [
+			{
+				"name": "isTelemetryEnabled",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTelemetryEnabled": [
+			{
+				"name": "onDidChangeTelemetryEnabled",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeShell": [
+			{
+				"name": "onDidChangeShell",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"createTelemetryLogger": [
+			{
+				"name": "createTelemetryLogger",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"remoteName": [
+			{
+				"name": "remoteName",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"shell": [
+			{
+				"name": "shell",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"uiKind": [
+			{
+				"name": "uiKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"openExternal": [
+			{
+				"name": "openExternal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"asExternalUri": [
+			{
+				"name": "asExternalUri",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"logLevel": [
+			{
+				"name": "logLevel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeLogLevel": [
+			{
+				"name": "onDidChangeLogLevel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"registerCommand": [
+			{
+				"name": "registerCommand",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTextEditorCommand": [
+			{
+				"name": "registerTextEditorCommand",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"executeCommand": [
+			{
+				"name": "executeCommand",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"getCommands": [
+			{
+				"name": "getCommands",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"WindowState": [
+			{
+				"name": "WindowState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"UriHandler": [
+			{
+				"name": "UriHandler",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"tabGroups": [
+			{
+				"name": "tabGroups",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"activeTextEditor": [
+			{
+				"name": "activeTextEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"visibleTextEditors": [
+			{
+				"name": "visibleTextEditors",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveTextEditor": [
+			{
+				"name": "onDidChangeActiveTextEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeVisibleTextEditors": [
+			{
+				"name": "onDidChangeVisibleTextEditors",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTextEditorSelection": [
+			{
+				"name": "onDidChangeTextEditorSelection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTextEditorVisibleRanges": [
+			{
+				"name": "onDidChangeTextEditorVisibleRanges",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTextEditorOptions": [
+			{
+				"name": "onDidChangeTextEditorOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTextEditorViewColumn": [
+			{
+				"name": "onDidChangeTextEditorViewColumn",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"visibleNotebookEditors": [
+			{
+				"name": "visibleNotebookEditors",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeVisibleNotebookEditors": [
+			{
+				"name": "onDidChangeVisibleNotebookEditors",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"activeNotebookEditor": [
+			{
+				"name": "activeNotebookEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveNotebookEditor": [
+			{
+				"name": "onDidChangeActiveNotebookEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeNotebookEditorSelection": [
+			{
+				"name": "onDidChangeNotebookEditorSelection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeNotebookEditorVisibleRanges": [
+			{
+				"name": "onDidChangeNotebookEditorVisibleRanges",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"terminals": [
+			{
+				"name": "terminals",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"activeTerminal": [
+			{
+				"name": "activeTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveTerminal": [
+			{
+				"name": "onDidChangeActiveTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidOpenTerminal": [
+			{
+				"name": "onDidOpenTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidCloseTerminal": [
+			{
+				"name": "onDidCloseTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTerminalState": [
+			{
+				"name": "onDidChangeTerminalState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTerminalShellIntegration": [
+			{
+				"name": "onDidChangeTerminalShellIntegration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidStartTerminalShellExecution": [
+			{
+				"name": "onDidStartTerminalShellExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidEndTerminalShellExecution": [
+			{
+				"name": "onDidEndTerminalShellExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"state": [
+			{
+				"name": "state",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeWindowState": [
+			{
+				"name": "onDidChangeWindowState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"showTextDocument": [
+			{
+				"name": "showTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showNotebookDocument": [
+			{
+				"name": "showNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createTextEditorDecorationType": [
+			{
+				"name": "createTextEditorDecorationType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showInformationMessage": [
+			{
+				"name": "showInformationMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showWarningMessage": [
+			{
+				"name": "showWarningMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showErrorMessage": [
+			{
+				"name": "showErrorMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showQuickPick": [
+			{
+				"name": "showQuickPick",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showWorkspaceFolderPick": [
+			{
+				"name": "showWorkspaceFolderPick",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showOpenDialog": [
+			{
+				"name": "showOpenDialog",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showSaveDialog": [
+			{
+				"name": "showSaveDialog",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"showInputBox": [
+			{
+				"name": "showInputBox",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createQuickPick": [
+			{
+				"name": "createQuickPick",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createInputBox": [
+			{
+				"name": "createInputBox",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createOutputChannel": [
+			{
+				"name": "createOutputChannel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createWebviewPanel": [
+			{
+				"name": "createWebviewPanel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"setStatusBarMessage": [
+			{
+				"name": "setStatusBarMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"withScmProgress": [
+			{
+				"name": "withScmProgress",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"withProgress": [
+			{
+				"name": "withProgress",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createStatusBarItem": [
+			{
+				"name": "createStatusBarItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createTerminal": [
+			{
+				"name": "createTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTreeDataProvider": [
+			{
+				"name": "registerTreeDataProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createTreeView": [
+			{
+				"name": "createTreeView",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerUriHandler": [
+			{
+				"name": "registerUriHandler",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerWebviewPanelSerializer": [
+			{
+				"name": "registerWebviewPanelSerializer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerWebviewViewProvider": [
+			{
+				"name": "registerWebviewViewProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerCustomEditorProvider": [
+			{
+				"name": "registerCustomEditorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTerminalLinkProvider": [
+			{
+				"name": "registerTerminalLinkProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTerminalProfileProvider": [
+			{
+				"name": "registerTerminalProfileProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerFileDecorationProvider": [
+			{
+				"name": "registerFileDecorationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"activeColorTheme": [
+			{
+				"name": "activeColorTheme",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveColorTheme": [
+			{
+				"name": "onDidChangeActiveColorTheme",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"TreeViewOptions": [
+			{
+				"name": "TreeViewOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeViewExpansionEvent": [
+			{
+				"name": "TreeViewExpansionEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeViewSelectionChangeEvent": [
+			{
+				"name": "TreeViewSelectionChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeViewVisibilityChangeEvent": [
+			{
+				"name": "TreeViewVisibilityChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DataTransferFile": [
+			{
+				"name": "DataTransferFile",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DataTransferItem": [
+			{
+				"name": "DataTransferItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DataTransfer": [
+			{
+				"name": "DataTransfer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TreeDragAndDropController": [
+			{
+				"name": "TreeDragAndDropController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ViewBadge": [
+			{
+				"name": "ViewBadge",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeCheckboxChangeEvent": [
+			{
+				"name": "TreeCheckboxChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeView": [
+			{
+				"name": "TreeView",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeDataProvider": [
+			{
+				"name": "TreeDataProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeItem": [
+			{
+				"name": "TreeItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TreeItemCollapsibleState": [
+			{
+				"name": "TreeItemCollapsibleState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TreeItemLabel": [
+			{
+				"name": "TreeItemLabel",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TreeItemCheckboxState": [
+			{
+				"name": "TreeItemCheckboxState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TerminalOptions": [
+			{
+				"name": "TerminalOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ExtensionTerminalOptions": [
+			{
+				"name": "ExtensionTerminalOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Pseudoterminal": [
+			{
+				"name": "Pseudoterminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalDimensions": [
+			{
+				"name": "TerminalDimensions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalExitStatus": [
+			{
+				"name": "TerminalExitStatus",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TerminalExitReason": [
+			{
+				"name": "TerminalExitReason",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"EnvironmentVariableMutatorType": [
+			{
+				"name": "EnvironmentVariableMutatorType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"EnvironmentVariableMutatorOptions": [
+			{
+				"name": "EnvironmentVariableMutatorOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EnvironmentVariableMutator": [
+			{
+				"name": "EnvironmentVariableMutator",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EnvironmentVariableCollection": [
+			{
+				"name": "EnvironmentVariableCollection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"GlobalEnvironmentVariableCollection": [
+			{
+				"name": "GlobalEnvironmentVariableCollection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EnvironmentVariableScope": [
+			{
+				"name": "EnvironmentVariableScope",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ProgressLocation": [
+			{
+				"name": "ProgressLocation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ProgressOptions": [
+			{
+				"name": "ProgressOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickInput": [
+			{
+				"name": "QuickInput",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickPick": [
+			{
+				"name": "QuickPick",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InputBox": [
+			{
+				"name": "InputBox",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickInputButton": [
+			{
+				"name": "QuickInputButton",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickInputButtons": [
+			{
+				"name": "QuickInputButtons",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"QuickPickItemButtonEvent": [
+			{
+				"name": "QuickPickItemButtonEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextDocumentContentChangeEvent": [
+			{
+				"name": "TextDocumentContentChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextDocumentChangeReason": [
+			{
+				"name": "TextDocumentChangeReason",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextDocumentChangeEvent": [
+			{
+				"name": "TextDocumentChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextDocumentSaveReason": [
+			{
+				"name": "TextDocumentSaveReason",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TextDocumentWillSaveEvent": [
+			{
+				"name": "TextDocumentWillSaveEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileWillCreateEvent": [
+			{
+				"name": "FileWillCreateEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileCreateEvent": [
+			{
+				"name": "FileCreateEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileWillDeleteEvent": [
+			{
+				"name": "FileWillDeleteEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileDeleteEvent": [
+			{
+				"name": "FileDeleteEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileWillRenameEvent": [
+			{
+				"name": "FileWillRenameEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"FileRenameEvent": [
+			{
+				"name": "FileRenameEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceFoldersChangeEvent": [
+			{
+				"name": "WorkspaceFoldersChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WorkspaceFolder": [
+			{
+				"name": "WorkspaceFolder",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"fs": [
+			{
+				"name": "fs",
+				"module": "fs",
+				"isDefault": true,
+				"asDefinition": "* as fs"
+			},
+			{
+				"name": "fs",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"rootPath": [
+			{
+				"name": "rootPath",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"workspaceFolders": [
+			{
+				"name": "workspaceFolders",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"name": [
+			{
+				"name": "name",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"workspaceFile": [
+			{
+				"name": "workspaceFile",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeWorkspaceFolders": [
+			{
+				"name": "onDidChangeWorkspaceFolders",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"getWorkspaceFolder": [
+			{
+				"name": "getWorkspaceFolder",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"asRelativePath": [
+			{
+				"name": "asRelativePath",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"updateWorkspaceFolders": [
+			{
+				"name": "updateWorkspaceFolders",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createFileSystemWatcher": [
+			{
+				"name": "createFileSystemWatcher",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"findFiles": [
+			{
+				"name": "findFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"save": [
+			{
+				"name": "save",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"saveAs": [
+			{
+				"name": "saveAs",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"saveAll": [
+			{
+				"name": "saveAll",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"applyEdit": [
+			{
+				"name": "applyEdit",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"textDocuments": [
+			{
+				"name": "textDocuments",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"openTextDocument": [
+			{
+				"name": "openTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTextDocumentContentProvider": [
+			{
+				"name": "registerTextDocumentContentProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidOpenTextDocument": [
+			{
+				"name": "onDidOpenTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidCloseTextDocument": [
+			{
+				"name": "onDidCloseTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeTextDocument": [
+			{
+				"name": "onDidChangeTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onWillSaveTextDocument": [
+			{
+				"name": "onWillSaveTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidSaveTextDocument": [
+			{
+				"name": "onDidSaveTextDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"notebookDocuments": [
+			{
+				"name": "notebookDocuments",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"openNotebookDocument": [
+			{
+				"name": "openNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidChangeNotebookDocument": [
+			{
+				"name": "onDidChangeNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onWillSaveNotebookDocument": [
+			{
+				"name": "onWillSaveNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidSaveNotebookDocument": [
+			{
+				"name": "onDidSaveNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"registerNotebookSerializer": [
+			{
+				"name": "registerNotebookSerializer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidOpenNotebookDocument": [
+			{
+				"name": "onDidOpenNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidCloseNotebookDocument": [
+			{
+				"name": "onDidCloseNotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onWillCreateFiles": [
+			{
+				"name": "onWillCreateFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidCreateFiles": [
+			{
+				"name": "onDidCreateFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onWillDeleteFiles": [
+			{
+				"name": "onWillDeleteFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidDeleteFiles": [
+			{
+				"name": "onDidDeleteFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onWillRenameFiles": [
+			{
+				"name": "onWillRenameFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidRenameFiles": [
+			{
+				"name": "onDidRenameFiles",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"getConfiguration": [
+			{
+				"name": "getConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidChangeConfiguration": [
+			{
+				"name": "onDidChangeConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"registerFileSystemProvider": [
+			{
+				"name": "registerFileSystemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"isTrusted": [
+			{
+				"name": "isTrusted",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidGrantWorkspaceTrust": [
+			{
+				"name": "onDidGrantWorkspaceTrust",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"decode": [
+			{
+				"name": "decode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"encode": [
+			{
+				"name": "encode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"ConfigurationScope": [
+			{
+				"name": "ConfigurationScope",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"ConfigurationChangeEvent": [
+			{
+				"name": "ConfigurationChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"getLanguages": [
+			{
+				"name": "getLanguages",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"setTextDocumentLanguage": [
+			{
+				"name": "setTextDocumentLanguage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"match": [
+			{
+				"name": "match",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidChangeDiagnostics": [
+			{
+				"name": "onDidChangeDiagnostics",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"getDiagnostics": [
+			{
+				"name": "getDiagnostics",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"getDiagnosticsWithFixes": [
+			{
+				"name": "getDiagnosticsWithFixes",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"applyCodeAction": [
+			{
+				"name": "applyCodeAction",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"clearCodeActions": [
+			{
+				"name": "clearCodeActions",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createDiagnosticCollection": [
+			{
+				"name": "createDiagnosticCollection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createLanguageStatusItem": [
+			{
+				"name": "createLanguageStatusItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerCompletionItemProvider": [
+			{
+				"name": "registerCompletionItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerInlineCompletionItemProvider": [
+			{
+				"name": "registerInlineCompletionItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerCodeActionsProvider": [
+			{
+				"name": "registerCodeActionsProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerCodeLensProvider": [
+			{
+				"name": "registerCodeLensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDefinitionProvider": [
+			{
+				"name": "registerDefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerImplementationProvider": [
+			{
+				"name": "registerImplementationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTypeDefinitionProvider": [
+			{
+				"name": "registerTypeDefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDeclarationProvider": [
+			{
+				"name": "registerDeclarationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerHoverProvider": [
+			{
+				"name": "registerHoverProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerEvaluatableExpressionProvider": [
+			{
+				"name": "registerEvaluatableExpressionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerInlineValuesProvider": [
+			{
+				"name": "registerInlineValuesProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentHighlightProvider": [
+			{
+				"name": "registerDocumentHighlightProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentSymbolProvider": [
+			{
+				"name": "registerDocumentSymbolProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerWorkspaceSymbolProvider": [
+			{
+				"name": "registerWorkspaceSymbolProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerReferenceProvider": [
+			{
+				"name": "registerReferenceProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerRenameProvider": [
+			{
+				"name": "registerRenameProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentSemanticTokensProvider": [
+			{
+				"name": "registerDocumentSemanticTokensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentRangeSemanticTokensProvider": [
+			{
+				"name": "registerDocumentRangeSemanticTokensProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentFormattingEditProvider": [
+			{
+				"name": "registerDocumentFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentRangeFormattingEditProvider": [
+			{
+				"name": "registerDocumentRangeFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerOnTypeFormattingEditProvider": [
+			{
+				"name": "registerOnTypeFormattingEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerSignatureHelpProvider": [
+			{
+				"name": "registerSignatureHelpProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentLinkProvider": [
+			{
+				"name": "registerDocumentLinkProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerColorProvider": [
+			{
+				"name": "registerColorProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerInlayHintsProvider": [
+			{
+				"name": "registerInlayHintsProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerFoldingRangeProvider": [
+			{
+				"name": "registerFoldingRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerSelectionRangeProvider": [
+			{
+				"name": "registerSelectionRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerCallHierarchyProvider": [
+			{
+				"name": "registerCallHierarchyProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTypeHierarchyProvider": [
+			{
+				"name": "registerTypeHierarchyProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerLinkedEditingRangeProvider": [
+			{
+				"name": "registerLinkedEditingRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentDropEditProvider": [
+			{
+				"name": "registerDocumentDropEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDocumentPasteEditProvider": [
+			{
+				"name": "registerDocumentPasteEditProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"setLanguageConfiguration": [
+			{
+				"name": "setLanguageConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"NotebookEditorRevealType": [
+			{
+				"name": "NotebookEditorRevealType",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"NotebookEditor": [
+			{
+				"name": "NotebookEditor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookRendererMessaging": [
+			{
+				"name": "NotebookRendererMessaging",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellKind": [
+			{
+				"name": "NotebookCellKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"NotebookCell": [
+			{
+				"name": "NotebookCell",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocument": [
+			{
+				"name": "NotebookDocument",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentCellChange": [
+			{
+				"name": "NotebookDocumentCellChange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentContentChange": [
+			{
+				"name": "NotebookDocumentContentChange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentChangeEvent": [
+			{
+				"name": "NotebookDocumentChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentWillSaveEvent": [
+			{
+				"name": "NotebookDocumentWillSaveEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellExecutionSummary": [
+			{
+				"name": "NotebookCellExecutionSummary",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookRange": [
+			{
+				"name": "NotebookRange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookCellOutputItem": [
+			{
+				"name": "NotebookCellOutputItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookCellOutput": [
+			{
+				"name": "NotebookCellOutput",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookCellData": [
+			{
+				"name": "NotebookCellData",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookData": [
+			{
+				"name": "NotebookData",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookSerializer": [
+			{
+				"name": "NotebookSerializer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookDocumentContentOptions": [
+			{
+				"name": "NotebookDocumentContentOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookControllerAffinity": [
+			{
+				"name": "NotebookControllerAffinity",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"NotebookController": [
+			{
+				"name": "NotebookController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellExecution": [
+			{
+				"name": "NotebookCellExecution",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellStatusBarAlignment": [
+			{
+				"name": "NotebookCellStatusBarAlignment",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"NotebookCellStatusBarItem": [
+			{
+				"name": "NotebookCellStatusBarItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotebookCellStatusBarItemProvider": [
+			{
+				"name": "NotebookCellStatusBarItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"createNotebookController": [
+			{
+				"name": "createNotebookController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerNotebookCellStatusBarItemProvider": [
+			{
+				"name": "registerNotebookCellStatusBarItemProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"createRendererMessaging": [
+			{
+				"name": "createRendererMessaging",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"SourceControlInputBox": [
+			{
+				"name": "SourceControlInputBox",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickDiffProvider": [
+			{
+				"name": "QuickDiffProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceControlResourceThemableDecorations": [
+			{
+				"name": "SourceControlResourceThemableDecorations",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceControlResourceDecorations": [
+			{
+				"name": "SourceControlResourceDecorations",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceControlResourceState": [
+			{
+				"name": "SourceControlResourceState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceControlResourceGroup": [
+			{
+				"name": "SourceControlResourceGroup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceControl": [
+			{
+				"name": "SourceControl",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"inputBox": [
+			{
+				"name": "inputBox",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"createSourceControl": [
+			{
+				"name": "createSourceControl",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"DebugProtocolMessage": [
+			{
+				"name": "DebugProtocolMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugProtocolSource": [
+			{
+				"name": "DebugProtocolSource",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugProtocolBreakpoint": [
+			{
+				"name": "DebugProtocolBreakpoint",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugConfiguration": [
+			{
+				"name": "DebugConfiguration",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugSession": [
+			{
+				"name": "DebugSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugSessionCustomEvent": [
+			{
+				"name": "DebugSessionCustomEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugConfigurationProvider": [
+			{
+				"name": "DebugConfigurationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterExecutable": [
+			{
+				"name": "DebugAdapterExecutable",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterExecutableOptions": [
+			{
+				"name": "DebugAdapterExecutableOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterServer": [
+			{
+				"name": "DebugAdapterServer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterNamedPipeServer": [
+			{
+				"name": "DebugAdapterNamedPipeServer",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugAdapter": [
+			{
+				"name": "DebugAdapter",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterInlineImplementation": [
+			{
+				"name": "DebugAdapterInlineImplementation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterDescriptor": [
+			{
+				"name": "DebugAdapterDescriptor",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterDescriptorFactory": [
+			{
+				"name": "DebugAdapterDescriptorFactory",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterTracker": [
+			{
+				"name": "DebugAdapterTracker",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugAdapterTrackerFactory": [
+			{
+				"name": "DebugAdapterTrackerFactory",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugConsole": [
+			{
+				"name": "DebugConsole",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"BreakpointsChangeEvent": [
+			{
+				"name": "BreakpointsChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Breakpoint": [
+			{
+				"name": "Breakpoint",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"SourceBreakpoint": [
+			{
+				"name": "SourceBreakpoint",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FunctionBreakpoint": [
+			{
+				"name": "FunctionBreakpoint",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugConsoleMode": [
+			{
+				"name": "DebugConsoleMode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DebugSessionOptions": [
+			{
+				"name": "DebugSessionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugConfigurationProviderTriggerKind": [
+			{
+				"name": "DebugConfigurationProviderTriggerKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"DebugThread": [
+			{
+				"name": "DebugThread",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DebugStackFrame": [
+			{
+				"name": "DebugStackFrame",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"activeDebugSession": [
+			{
+				"name": "activeDebugSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"activeDebugConsole": [
+			{
+				"name": "activeDebugConsole",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"breakpoints": [
+			{
+				"name": "breakpoints",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "let",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveDebugSession": [
+			{
+				"name": "onDidChangeActiveDebugSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidStartDebugSession": [
+			{
+				"name": "onDidStartDebugSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidReceiveDebugSessionCustomEvent": [
+			{
+				"name": "onDidReceiveDebugSessionCustomEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidTerminateDebugSession": [
+			{
+				"name": "onDidTerminateDebugSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeBreakpoints": [
+			{
+				"name": "onDidChangeBreakpoints",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"activeStackItem": [
+			{
+				"name": "activeStackItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChangeActiveStackItem": [
+			{
+				"name": "onDidChangeActiveStackItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"registerDebugConfigurationProvider": [
+			{
+				"name": "registerDebugConfigurationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDebugAdapterDescriptorFactory": [
+			{
+				"name": "registerDebugAdapterDescriptorFactory",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerDebugAdapterTrackerFactory": [
+			{
+				"name": "registerDebugAdapterTrackerFactory",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"startDebugging": [
+			{
+				"name": "startDebugging",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"stopDebugging": [
+			{
+				"name": "stopDebugging",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"addBreakpoints": [
+			{
+				"name": "addBreakpoints",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"removeBreakpoints": [
+			{
+				"name": "removeBreakpoints",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"asDebugSourceUri": [
+			{
+				"name": "asDebugSourceUri",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"activate": [
+			{
+				"name": "activate",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"getExtension": [
+			{
+				"name": "getExtension",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"all": [
+			{
+				"name": "all",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"onDidChange": [
+			{
+				"name": "onDidChange",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"CommentThreadCollapsibleState": [
+			{
+				"name": "CommentThreadCollapsibleState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CommentMode": [
+			{
+				"name": "CommentMode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CommentThreadState": [
+			{
+				"name": "CommentThreadState",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"CommentThread": [
+			{
+				"name": "CommentThread",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentAuthorInformation": [
+			{
+				"name": "CommentAuthorInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentReaction": [
+			{
+				"name": "CommentReaction",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Comment": [
+			{
+				"name": "Comment",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentReply": [
+			{
+				"name": "CommentReply",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentingRanges": [
+			{
+				"name": "CommentingRanges",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentingRangeProvider": [
+			{
+				"name": "CommentingRangeProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentOptions": [
+			{
+				"name": "CommentOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentController": [
+			{
+				"name": "CommentController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"createCommentController": [
+			{
+				"name": "createCommentController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"AuthenticationSession": [
+			{
+				"name": "AuthenticationSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationSessionAccountInformation": [
+			{
+				"name": "AuthenticationSessionAccountInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationGetSessionPresentationOptions": [
+			{
+				"name": "AuthenticationGetSessionPresentationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationForceNewSessionOptions": [
+			{
+				"name": "AuthenticationForceNewSessionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"AuthenticationGetSessionOptions": [
+			{
+				"name": "AuthenticationGetSessionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationWwwAuthenticateRequest": [
+			{
+				"name": "AuthenticationWwwAuthenticateRequest",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationProviderInformation": [
+			{
+				"name": "AuthenticationProviderInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationSessionsChangeEvent": [
+			{
+				"name": "AuthenticationSessionsChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationProviderOptions": [
+			{
+				"name": "AuthenticationProviderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationProviderAuthenticationSessionsChangeEvent": [
+			{
+				"name": "AuthenticationProviderAuthenticationSessionsChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationProviderSessionOptions": [
+			{
+				"name": "AuthenticationProviderSessionOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"AuthenticationProvider": [
+			{
+				"name": "AuthenticationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"getSession": [
+			{
+				"name": "getSession",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"getAccounts": [
+			{
+				"name": "getAccounts",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"onDidChangeSessions": [
+			{
+				"name": "onDidChangeSessions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"registerAuthenticationProvider": [
+			{
+				"name": "registerAuthenticationProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"t": [
+			{
+				"name": "t",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"bundle": [
+			{
+				"name": "bundle",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"uri": [
+			{
+				"name": "uri",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"createTestController": [
+			{
+				"name": "createTestController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"TestRunProfileKind": [
+			{
+				"name": "TestRunProfileKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"TestTag": [
+			{
+				"name": "TestTag",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TestRunProfile": [
+			{
+				"name": "TestRunProfile",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestController": [
+			{
+				"name": "TestController",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestRunRequest": [
+			{
+				"name": "TestRunRequest",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TestRun": [
+			{
+				"name": "TestRun",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestItemCollection": [
+			{
+				"name": "TestItemCollection",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestItem": [
+			{
+				"name": "TestItem",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestMessageStackFrame": [
+			{
+				"name": "TestMessageStackFrame",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TestMessage": [
+			{
+				"name": "TestMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TestCoverageCount": [
+			{
+				"name": "TestCoverageCount",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileCoverage": [
+			{
+				"name": "FileCoverage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"StatementCoverage": [
+			{
+				"name": "StatementCoverage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"BranchCoverage": [
+			{
+				"name": "BranchCoverage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DeclarationCoverage": [
+			{
+				"name": "DeclarationCoverage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FileCoverageDetail": [
+			{
+				"name": "FileCoverageDetail",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"TabInputText": [
+			{
+				"name": "TabInputText",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputTextDiff": [
+			{
+				"name": "TabInputTextDiff",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputCustom": [
+			{
+				"name": "TabInputCustom",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputJetskiArtifacts": [
+			{
+				"name": "TabInputJetskiArtifacts",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputWebview": [
+			{
+				"name": "TabInputWebview",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputNotebook": [
+			{
+				"name": "TabInputNotebook",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputNotebookDiff": [
+			{
+				"name": "TabInputNotebookDiff",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabInputTerminal": [
+			{
+				"name": "TabInputTerminal",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab": [
+			{
+				"name": "Tab",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TabChangeEvent": [
+			{
+				"name": "TabChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TabGroupChangeEvent": [
+			{
+				"name": "TabGroupChangeEvent",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TabGroup": [
+			{
+				"name": "TabGroup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TabGroups": [
+			{
+				"name": "TabGroups",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TelemetryTrustedValue": [
+			{
+				"name": "TelemetryTrustedValue",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TelemetryLogger": [
+			{
+				"name": "TelemetryLogger",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TelemetrySender": [
+			{
+				"name": "TelemetrySender",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TelemetryLoggerOptions": [
+			{
+				"name": "TelemetryLoggerOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatRequestTurn": [
+			{
+				"name": "ChatRequestTurn",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseTurn": [
+			{
+				"name": "ChatResponseTurn",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatContext": [
+			{
+				"name": "ChatContext",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatErrorDetails": [
+			{
+				"name": "ChatErrorDetails",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatResult": [
+			{
+				"name": "ChatResult",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatResultFeedbackKind": [
+			{
+				"name": "ChatResultFeedbackKind",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ChatResultFeedback": [
+			{
+				"name": "ChatResultFeedback",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatFollowup": [
+			{
+				"name": "ChatFollowup",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatFollowupProvider": [
+			{
+				"name": "ChatFollowupProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatRequestHandler": [
+			{
+				"name": "ChatRequestHandler",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"ChatParticipant": [
+			{
+				"name": "ChatParticipant",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatPromptReference": [
+			{
+				"name": "ChatPromptReference",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatRequest": [
+			{
+				"name": "ChatRequest",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatResponseStream": [
+			{
+				"name": "ChatResponseStream",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatResponseMarkdownPart": [
+			{
+				"name": "ChatResponseMarkdownPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseFileTree": [
+			{
+				"name": "ChatResponseFileTree",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatResponseFileTreePart": [
+			{
+				"name": "ChatResponseFileTreePart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseAnchorPart": [
+			{
+				"name": "ChatResponseAnchorPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseProgressPart": [
+			{
+				"name": "ChatResponseProgressPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseReferencePart": [
+			{
+				"name": "ChatResponseReferencePart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponseCommandButtonPart": [
+			{
+				"name": "ChatResponseCommandButtonPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatResponsePart": [
+			{
+				"name": "ChatResponsePart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"createChatParticipant": [
+			{
+				"name": "createChatParticipant",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatMessageRole": [
+			{
+				"name": "LanguageModelChatMessageRole",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatMessage": [
+			{
+				"name": "LanguageModelChatMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatResponse": [
+			{
+				"name": "LanguageModelChatResponse",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChat": [
+			{
+				"name": "LanguageModelChat",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatSelector": [
+			{
+				"name": "LanguageModelChatSelector",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelError": [
+			{
+				"name": "LanguageModelError",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatRequestOptions": [
+			{
+				"name": "LanguageModelChatRequestOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"McpStdioServerDefinition": [
+			{
+				"name": "McpStdioServerDefinition",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"McpHttpServerDefinition": [
+			{
+				"name": "McpHttpServerDefinition",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"McpServerDefinition": [
+			{
+				"name": "McpServerDefinition",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"McpServerDefinitionProvider": [
+			{
+				"name": "McpServerDefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ProvideLanguageModelChatResponseOptions": [
+			{
+				"name": "ProvideLanguageModelChatResponseOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatInformation": [
+			{
+				"name": "LanguageModelChatInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatCapabilities": [
+			{
+				"name": "LanguageModelChatCapabilities",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatRequestMessage": [
+			{
+				"name": "LanguageModelChatRequestMessage",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelResponsePart": [
+			{
+				"name": "LanguageModelResponsePart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"LanguageModelInputPart": [
+			{
+				"name": "LanguageModelInputPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatProvider": [
+			{
+				"name": "LanguageModelChatProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PrepareLanguageModelChatModelOptions": [
+			{
+				"name": "PrepareLanguageModelChatModelOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"onDidChangeChatModels": [
+			{
+				"name": "onDidChangeChatModels",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"selectChatModels": [
+			{
+				"name": "selectChatModels",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerTool": [
+			{
+				"name": "registerTool",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"tools": [
+			{
+				"name": "tools",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"invokeTool": [
+			{
+				"name": "invokeTool",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerMcpServerDefinitionProvider": [
+			{
+				"name": "registerMcpServerDefinitionProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"registerLanguageModelChatProvider": [
+			{
+				"name": "registerLanguageModelChatProvider",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"LanguageModelAccessInformation": [
+			{
+				"name": "LanguageModelAccessInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatTool": [
+			{
+				"name": "LanguageModelChatTool",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelChatToolMode": [
+			{
+				"name": "LanguageModelChatToolMode",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolCallPart": [
+			{
+				"name": "LanguageModelToolCallPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolResultPart": [
+			{
+				"name": "LanguageModelToolResultPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelTextPart": [
+			{
+				"name": "LanguageModelTextPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelPromptTsxPart": [
+			{
+				"name": "LanguageModelPromptTsxPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolResult": [
+			{
+				"name": "LanguageModelToolResult",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LanguageModelDataPart": [
+			{
+				"name": "LanguageModelDataPart",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ChatParticipantToolToken": [
+			{
+				"name": "ChatParticipantToolToken",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "type",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolInvocationOptions": [
+			{
+				"name": "LanguageModelToolInvocationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolTokenizationOptions": [
+			{
+				"name": "LanguageModelToolTokenizationOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolInformation": [
+			{
+				"name": "LanguageModelToolInformation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolInvocationPrepareOptions": [
+			{
+				"name": "LanguageModelToolInvocationPrepareOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelTool": [
+			{
+				"name": "LanguageModelTool",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LanguageModelToolConfirmationMessages": [
+			{
+				"name": "LanguageModelToolConfirmationMessages",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PreparedToolInvocation": [
+			{
+				"name": "PreparedToolInvocation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatLanguageModelToolReference": [
+			{
+				"name": "ChatLanguageModelToolReference",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"registerCellExecutionInterceptor": [
+			{
+				"name": "registerCellExecutionInterceptor",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"SendToAgentPanelOptions": [
+			{
+				"name": "SendToAgentPanelOptions",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"sendToAgentPanel": [
+			{
+				"name": "sendToAgentPanel",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"refreshMcpServers": [
+			{
+				"name": "refreshMcpServers",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"writeMcpConfig": [
+			{
+				"name": "writeMcpConfig",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"getMcpConfig": [
+			{
+				"name": "getMcpConfig",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"NotebookCellExecutionInterceptor": [
+			{
+				"name": "NotebookCellExecutionInterceptor",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellExecutionInterceptorContext": [
+			{
+				"name": "NotebookCellExecutionInterceptorContext",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookCellExecutionInterceptorResult": [
+			{
+				"name": "NotebookCellExecutionInterceptorResult",
+				"path": "d:\\Antigravity IDE\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"KMLDriverMapProps": [
+			{
+				"name": "KMLDriverMapProps",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\driver\\RouteMap.tsx",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"RouteMap": [
+			{
+				"name": "RouteMap",
+				"path": "d:\\frontned\\CivicSync-Vehicle-Dashboard\\src\\components\\driver\\RouteMap.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"MapContainer": [
+			{
+				"name": "MapContainer",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"TileLayer": [
+			{
+				"name": "TileLayer",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"Polyline": [
+			{
+				"name": "Polyline",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"Polygon": [
+			{
+				"name": "Polygon",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"CircleMarker": [
+			{
+				"name": "CircleMarker",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"useMap": [
+			{
+				"name": "useMap",
+				"module": "react-leaflet",
+				"isDefault": false
+			}
+		],
+		"L": [
+			{
+				"name": "L",
+				"module": "leaflet",
+				"isDefault": true
+			}
+		],
+		"type { StopStatus": [
+			{
+				"name": "type { StopStatus",
+				"module": "@/lib/driver-data",
+				"isDefault": true
+			}
+		],
+		"setupCounter": [
+			{
+				"name": "setupCounter",
+				"path": "d:\\frontned\\CivicSync-Admin-Dashboard\\src\\counter.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"Menu": [
+			{
+				"name": "Menu",
+				"module": "lucide-react",
+				"isDefault": false
+			}
+		],
+		"kiroVersion": [
+			{
+				"name": "kiroVersion",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"CodeLensRenderOptions": [
+			{
+				"name": "CodeLensRenderOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"OpenExternalOptions": [
+			{
+				"name": "OpenExternalOptions",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickInputButtonLocation": [
+			{
+				"name": "QuickInputButtonLocation",
+				"path": "d:\\Kiro\\resources\\app\\out\\vscode-dts\\vscode.d.ts",
+				"type": "enum",
+				"isDefault": false
+			}
+		],
+		"ContrastColors": [
+			{
+				"name": "ContrastColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"BaseColors": [
+			{
+				"name": "BaseColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WindowBorder": [
+			{
+				"name": "WindowBorder",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TextColors": [
+			{
+				"name": "TextColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ActionColors": [
+			{
+				"name": "ActionColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ButtonControl": [
+			{
+				"name": "ButtonControl",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DropdownControl": [
+			{
+				"name": "DropdownControl",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InputControl": [
+			{
+				"name": "InputControl",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ScrollbarControl": [
+			{
+				"name": "ScrollbarControl",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Badge": [
+			{
+				"name": "Badge",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ProgressBar": [
+			{
+				"name": "ProgressBar",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ListsAndTrees": [
+			{
+				"name": "ListsAndTrees",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ActivityBar": [
+			{
+				"name": "ActivityBar",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Profile": [
+			{
+				"name": "Profile",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SideBar": [
+			{
+				"name": "SideBar",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"Minimap": [
+			{
+				"name": "Minimap",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EditorGroupsAndTabs": [
+			{
+				"name": "EditorGroupsAndTabs",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EditorColors": [
+			{
+				"name": "EditorColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DiffEditorColor": [
+			{
+				"name": "DiffEditorColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChatColors": [
+			{
+				"name": "ChatColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"InlineChatColors": [
+			{
+				"name": "InlineChatColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PanelChatColor": [
+			{
+				"name": "PanelChatColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"EditorWidgetColor": [
+			{
+				"name": "EditorWidgetColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PeekViewColors": [
+			{
+				"name": "PeekViewColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MergeConflictsColors": [
+			{
+				"name": "MergeConflictsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PanelColors": [
+			{
+				"name": "PanelColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"StatusBarColors": [
+			{
+				"name": "StatusBarColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TitleBarColors": [
+			{
+				"name": "TitleBarColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MenuBarColors": [
+			{
+				"name": "MenuBarColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommandCenterColors": [
+			{
+				"name": "CommandCenterColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotificationColors": [
+			{
+				"name": "NotificationColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"BannerColors": [
+			{
+				"name": "BannerColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ExtensionsColors": [
+			{
+				"name": "ExtensionsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"QuickPickerColors": [
+			{
+				"name": "QuickPickerColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"KeybindingLabelColors": [
+			{
+				"name": "KeybindingLabelColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"KeyboardShortcutTableColors": [
+			{
+				"name": "KeyboardShortcutTableColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"IntegratedTerminalColors": [
+			{
+				"name": "IntegratedTerminalColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugColors": [
+			{
+				"name": "DebugColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TestingColors": [
+			{
+				"name": "TestingColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"WelcomePageColors": [
+			{
+				"name": "WelcomePageColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"GitColors": [
+			{
+				"name": "GitColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SourceCodeGraphColors": [
+			{
+				"name": "SourceCodeGraphColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SettingsEditorColors": [
+			{
+				"name": "SettingsEditorColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"BreadcrumbsColors": [
+			{
+				"name": "BreadcrumbsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SnippetsColors": [
+			{
+				"name": "SnippetsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SymbolIconsColors": [
+			{
+				"name": "SymbolIconsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"DebugIconsColors": [
+			{
+				"name": "DebugIconsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"NotebookColors": [
+			{
+				"name": "NotebookColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ChartColors": [
+			{
+				"name": "ChartColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PortsColors": [
+			{
+				"name": "PortsColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"CommentsViewColors": [
+			{
+				"name": "CommentsViewColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"ActionBarColor": [
+			{
+				"name": "ActionBarColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"SimpleFindWidgetColors": [
+			{
+				"name": "SimpleFindWidgetColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"GaugeColors": [
+			{
+				"name": "GaugeColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"KiroColors": [
+			{
+				"name": "KiroColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"UIColor": [
+			{
+				"name": "UIColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\UIColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TokenColorSetting": [
+			{
+				"name": "TokenColorSetting",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\TokenColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TokenColor": [
+			{
+				"name": "TokenColor",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\TokenColor.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"generateUIColors": [
+			{
+				"name": "generateUIColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\generateUIColors.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"generateTokenColors": [
+			{
+				"name": "generateTokenColors",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\theme-defaults\\generateTokenColors.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"VsCodeApi": [
+			{
+				"name": "VsCodeApi",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\mermaid-chat-features\\chat-webview-src\\vscodeApi.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"PanZoomHandler": [
+			{
+				"name": "PanZoomHandler",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\mermaid-chat-features\\chat-webview-src\\mermaidWebview.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"getMermaidTheme": [
+			{
+				"name": "getMermaidTheme",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\mermaid-chat-features\\chat-webview-src\\mermaidWebview.ts",
+				"type": "function",
+				"isDefault": false
+			}
+		],
+		"async": [
+			{
+				"name": "async",
+				"path": "d:\\Kiro\\resources\\app\\extensions\\mermaid-chat-features\\chat-webview-src\\mermaidWebview.ts",
+				"isDefault": false
+			}
+		],
+		"mermaid": [
+			{
+				"name": "mermaid",
+				"module": "mermaid",
+				"isDefault": true
+			}
+		],
+		"{ MermaidConfig": [
+			{
+				"name": "{ MermaidConfig",
+				"module": "mermaid",
+				"isDefault": true
+			}
+		]
+	}
+}
